@@ -19,7 +19,9 @@ h1, h2, h3 {
 }
 
 .remark-code, .remark-inline-code {
-  font-family: 'Inconsolata', 'Lucida Console', Monaco, monospace;
+  font-family: 'Muli';
+  color: #BF1F9A;
+  font-weight: 800;
 }
 
 .fancy{
@@ -27,8 +29,27 @@ h1, h2, h3 {
   font-weight: 700;
 }
 
+.fancy2{
+  font-family: 'Cormorant Upright', serif;
+  font-weight: 500;
+}
+
 .bright {
   color: #F9388C;
+}
+
+.bluecircle{
+  font-family: 'Cormorant Upright', serif;
+  font-weight: 700;
+  font-size: 140%;
+  color: #3399FF;
+}
+
+.redbracket{
+  font-family: 'Cormorant Upright', serif;
+  font-weight: 700;
+  font-size: 140%;
+  color: #FF0000;
 }
 
 .kulas {
@@ -39,11 +60,44 @@ h1, h2, h3 {
   color: #FDFEFF;
 }
 
+.black {
+  color: #000000;
+}
+
+.BLACK {
+  color: #000000;
+  font-weight: bold;
+}
+
+.medium { 
+  font-size: 130%;
+}
+
+.neon {
+  color: #6DFC18;
+  font-weight: bold;
+}
+
 /* for mermaid */
 
 .DiagrammeR g .label { 
   font-family: 'Lato'; 
   font-size: 14px; 
   color: rgb(51, 51, 51);
+}
+
+.Erg {
+  font-family: 'Georgia, serif'; 
+  color: #393DA8;
+}
+
+.eRg {
+  font-family: 'Georgia, serif';
+  color: #1A1E87;
+}
+
+.erG {
+  font-family: 'Georgia, serif';
+  color: #01055E;
 }
 

@@ -83,7 +83,7 @@ a > code {
 /* footer */
 
 div.my-footer {
-    background-color: #1a1917;
+    background-color: #1a1e87;
     position: absolute;
     bottom: 0px;
     left: 0px;
@@ -93,6 +93,7 @@ div.my-footer {
 
 div.my-footer span {
     font-size: 10pt;
+    font-weight: bold;
     color: #F7F8FA;
     position: absolute;
     left: 15px;
