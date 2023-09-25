@@ -1,6 +1,6 @@
 ---
-title: "erg Slides Tutorial"
-subtitle: "Using erg Feedback Slides"
+title: "Everything BUT Statistics"
+subtitle: "R for Authoring Websites, Reports, and Presentations Oh My!!"
 author: "John-o Kulas"
 date: "last updated: `r Sys.Date()`"
 output:
@@ -53,33 +53,52 @@ background-size: cover
 
 # 
 
-<img src="erg3.svg" alt="Sharingan" width="400" />
+<img src="mppaw.JPG" alt="MPPAW logo" height= "200" width="300" />
 
-### .salt[.fancy2[Tutorial on using]] .large[.Erg[e]`r fa("r-project", fill="#1A1E87")`.erG[g]] <br>.salt[.fancy2[report feedback slides]]
+# .fancy2[.BLACK[Everything **BUT** Statistics]]  
+### .fancy2[.BLACK[`r fa("r-project",fill="#000000")` for Authoring Websites, Reports, and Presentations ...Oh My!!]]
 
-.black[John-o Kulas | **.large[.Erg[e]`r fa("r-project",fill="#1A1E87")`.erG[g]]** | `r Sys.Date()`]
+.BLACK[Mike DeFabiis |] <br>
+.BLACK[Diego Figueiras |] <br>
+.BLACK[Casey Osorio-Dufoo |] <br>
+.BLACK[John Kulas | `r Sys.Date()`]
 
 <!-- this ends up being the title slide since seal = FALSE-->
 ---
-
-name: keyboard-demo
+name: context
 class: center, middle, inverse
 
-.pull-left[
-# .fancy[How to use the slides:]
-
-Toggle your keyboard's .fancy[.large[.neon["H"]]] key <br> to view presentation options. 
-
-![](img/hkey.PNG)
-]
+# .fancy[The (all too) common perspective on `r fa("r-project", fill="#4287f5")`:]
 
 --
 
-.pull-right[
-.large[Take some time to test out some of the options:]  
+![](img/spss.JPG)
 
-![](img/help.PNG)
+--
+.pull-left[
+Statistical Platform <br>(FORMER)
 ]
+--
+.pull-right[
+Statistical Platform <br>(NEW & SHINY)
+]
+
+---
+name: better
+class: center, middle, inverse
+
+# .fancy[Our perspective on `r fa("r-project", fill="#4287f5")`:]
+
+--
+.pull-left[
+![](img/R.JPG) <br>
+Operating Environment
+]
+--
+.pull-right[
+All the stuff
+]
+
 
 ---
 
