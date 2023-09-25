@@ -1,0 +1,260 @@
+---
+title: "erg Slides Tutorial"
+subtitle: "Using erg Feedback Slides"
+author: "John-o Kulas"
+date: "last updated: `r Sys.Date()`"
+output:
+  xaringan::moon_reader:
+    css: ["default", "css/sfah.css", "css/fonts.css"]
+    lib_dir: libs
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+      ratio: "16:9"
+      beforeInit: "https://platform.twitter.com/widgets.js"
+    seal: false 
+    includes:
+      in_header: header.html
+---
+
+```{r setup, include=FALSE}
+options(htmltools.dir.version = FALSE)
+library(knitr)
+knitr::opts_chunk$set(warning = FALSE, message = FALSE)
+# options(knitr.table.format = "html")
+library(tidyverse)
+library(babynames)
+library(fontawesome) # from github: https://github.com/rstudio/fontawesome
+library(DiagrammeR)
+```
+
+
+```{r xaringan-scribble, echo=FALSE}
+
+## https://pkg.garrickadenbuie.com/xaringanExtra/#/scribble
+
+xaringanExtra::use_scribble()          ## page load times much worse with this enabled - allows marking on slides
+## xaringanExtra::use_slide_tone()     ## use for visually impaired
+
+```
+
+layout: true
+  
+<div class="my-footer"><span>www.ergreports.com</span></div>
+
+<!-- this adds the link footer to all slides, depends on my-footer class in css-->
+
+---
+name: xaringan-title
+class: left, middle, inverse
+background-image: url(img/learn.jpg)
+background-size: cover 
+
+# 
+
+<img src="erg3.svg" alt="Sharingan" width="400" />
+
+### .salt[.fancy2[Tutorial on using]] .large[.Erg[e]`r fa("r-project", fill="#1A1E87")`.erG[g]] <br>.salt[.fancy2[report feedback slides]]
+
+.black[John-o Kulas | **.large[.Erg[e]`r fa("r-project",fill="#1A1E87")`.erG[g]]** | `r Sys.Date()`]
+
+<!-- this ends up being the title slide since seal = FALSE-->
+---
+
+name: keyboard-demo
+class: center, middle, inverse
+
+.pull-left[
+# .fancy[How to use the slides:]
+
+Toggle your keyboard's .fancy[.large[.neon["H"]]] key <br> to view presentation options. 
+
+![](img/hkey.PNG)
+]
+
+--
+
+.pull-right[
+.large[Take some time to test out some of the options:]  
+
+![](img/help.PNG)
+]
+
+---
+
+class: center, middle, inverse
+
+.pull-left[
+.large[...also note the difference in groupings between options for  .bluecircle[navigation]]... 
+
+![](img/help2.PNG)
+]
+
+--
+
+.pull-right[
+.large[...and options for .redbracket[presentation]]
+
+![](img/help3.PNG)
+]
+
+---
+
+class: left, middle, inverse
+
+## We'll just be focusing on how to use a few of the most popular .redbracket[presentation] options:
+
+.right[
+![](img/help4.PNG)
+]
+
+---
+
+class: left, middle, inverse
+
+.pull-left[#.fancy[Cloning:]
+
+.large[
++ Most useful if you'd like to use presentation notes  
++ Activated by depressing the ".redbracket[C]" key:  ]
+]
+
+.pull-right[ 
+![](img/clone.PNG)
+
+
+![](img/clone.jpg)
+]
+
+???
+
+Your notes will be available to you here in presenter mode, but only you will view them as long as you present a "cloned" screen.   
+
+---
+
+class: center, middle, inverse
+
+##.fancy[Cloning] (Continued)
+
+.pull-left[
+
+# 1. `r fa(name = "desktop", fill = "white")`
+
+.large[On the **presentation** screen:
+
+Move the cloned window here, <br>
+then press ".redbracket[F]" for full-screen mode]
+]
+
+--
+
+.pull-right[
+
+# 2. `r fa(name = "laptop", fill = "white")`
+
+.large[On **your laptop** screen:
+
+Press ".redbracket[P]" for presenter mode] 
+]
+
+---
+
+name: draw
+class: right, inverse, bottom
+
+.left-column[
+# Also take note of the <br> .fat[.fancy["Pencil"!]] `r anicon::faa("pencil-alt", animate="wrench")`
+]
+
+.right-column[
+![](https://media.giphy.com/media/1xphakLtTYmJGhkWl4/giphy.gif?cid=ecf05e47i2e7iv2efglevlr6js37z83jde3oedst7jshfyvp&rid=giphy.gif&ct=g)
+]
+
+---
+name: ninja
+class: middle, inverse
+
+## You can .salt[.fancy[edit]] your slides by activating the pencil:
+
+![](ezgif.com-gif-maker.gif)
+---
+
+.left-column[
+## Interactive Graphics:
+
+.large[Several of your slides have interactive components (try scrolling/ clicking the map):]
+]
+
+.right-column[
+
+```{r include=FALSE}
+library(leaflet)
+library(dplyr)
+library(reticulate)
+```
+
+```{r, echo=FALSE, warning=FALSE}
+
+content <- paste(sep = "<br/>",
+  "<b><a href='https://ergreports.com/'>eRg HQ</a></b>",
+  "Minneapolis, MN",
+  "55421"
+)
+
+ergIcon <- makeIcon(
+  iconUrl = "https://ergreports.com/images/erg2.png",
+  iconWidth = 60, iconHeight = 50,
+  iconAnchorX = 30, iconAnchorY = 30,
+)
+
+hc_gdpr <- leaflet() %>%
+  setView(lng= -93.24649681376336, lat=44.99948959471243, zoom=5) %>%
+#   addTiles() %>%
+ addProviderTiles(
+    "Stamen.Toner",
+    group = "Stamen.Toner"
+  ) %>%
+   addWMSTiles(
+    "http://mesonet.agron.iastate.edu/cgi-bin/wms/nexrad/n0r.cgi",
+    layers = "nexrad-n0r-900913",
+    options = WMSTileOptions(format = "image/png", transparent = TRUE, opacity = 0.35),
+    attribution = "Weather data © IEM Nexrad") %>%
+    addMarkers(-93.23, 45.0, icon=ergIcon, popup=content)
+  #    addCircleMarkers(-93.23, 45.0, popup=content, radius=20)
+  #  addPopups(-93.23, 45.0, content,
+#    options = popupOptions(closeButton = FALSE)
+#)
+
+
+htmlwidgets::saveWidget(hc_gdpr, "hc_gdpr.html", selfcontained = TRUE, knitrOptions = list())
+hc_gdpr
+## helpful(?) for interactive plots in GitPages sites:
+
+## http://ryankuhn.net/blog/How-To-Use-Plotly-With-Jekyll
+
+## https://bookdown.org/nicohahn/making_maps_with_r5/docs/leaflet.html
+```
+]
+
+---
+
+class: left, top, inverse
+
+# .salt[.fancy[Questions or Feature Requests???]]
+
+.pull-left[
+
+# .fancy[Reach out to us at...]
+<!--- <img class="circle" src="img/kulas.jpg" width="100px"/> -->
+
+[`r fa(name = "paper-plane")` jtkulas@ergreports.com](mailto:jtkulas@ergreports.com)  
+[`r fa(name = "link")` e`r fa("r-project")`g](https://www.ergreports.com)  
+[`r fa(name = "twitter")` @jtkulas](http://twitter.com/jtkulas)  
+[`r fa(name = "youtube")` Forensic Psychometrics](https://www.youtube.com/@forensicpsychometrics8300)  
+[`r fa(name = "github")` jtkulas](http://github.com/jtkulas)]  
+
+.pull-right[
+<img src="img/telescope.jpg" />
+]
+
