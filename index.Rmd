@@ -47,8 +47,8 @@ layout: true
 
 ---
 name: xaringan-title
-class: left, middle, inverse
-background-image: url(img/learn.jpg)
+class: left, top, inverse
+background-image: url(img/learn2.jpg)
 background-size: cover 
 
 # 
@@ -58,10 +58,11 @@ background-size: cover
 # .fancy2[.BLACK[Everything **BUT** Statistics]]  
 ### .fancy2[.BLACK[`r fa("r-project",fill="#000000")` for Authoring Websites, Reports, and <br>Presentations ...Oh My!!]]
 
-[`r fa("linkedin", fill="#0077b5")`](https://www.linkedin.com/in/michael-defabiis-84b45b162/) .BLACK[Mike DeFabiis |] <br>
-[`r fa("linkedin", fill="#0077b5")`](https://www.linkedin.com/in/diego-figueiras-m-a-012644123/) .BLACK[Diego Figueiras |] <br>
-[`r fa("linkedin", fill="#0077b5")`](https://www.linkedin.com/in/casey-osorio-duffoo/) .BLACK[Casey Osorio-Dufoo |] <br>
-[`r fa("linkedin", fill="#0077b5")`](https://www.linkedin.com/in/johntkulas/) .BLACK[John Kulas |]
+.large[[`r fa("linkedin", fill="#0077b5")`](https://www.linkedin.com/in/michael-defabiis-84b45b162/) .BLACK[| Mike DeFabiis ] <br>
+[`r fa("linkedin", fill="#0077b5")`](https://www.linkedin.com/in/diego-figueiras-m-a-012644123/) .BLACK[| Diego Figueiras ] <br>
+[`r fa("linkedin", fill="#0077b5")`](https://www.linkedin.com/in/casey-osorio-duffoo/) .BLACK[| Casey Osorio-Dufoo ] <br>
+[`r fa("linkedin", fill="#0077b5")`](https://www.linkedin.com/in/johntkulas/) .BLACK[| John Kulas ]
+]
 
 <!-- this ends up being the title slide since seal = FALSE -->
 ---
