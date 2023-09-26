@@ -94,7 +94,7 @@ class: center, top, inverse
 
 --
 
-<img src="img/stats.JPG"
+<img src="img/stats.jpg"
      width="150" height="200"
      style="position:absolute; left:550px; bottom:150px;">
 
