@@ -147,26 +147,15 @@ And much more. Only really limited by existing package availability, but you cou
 
 ---
 
-After talking with Diego (9/26) maybe spend more time on automated reports (go from simple to complex) instead of doing 3 things (e.g., maybe drop paper) - focus on reports & website/blog
+class: center, top, inverse
 
-
----
-
-class: center, middle, inverse
-
-.pull-left[
-.large[...also note the difference in groupings between options for  .bluecircle[navigation]]... 
-
-![](img/help2.PNG)
-]
+#.fancy[`r fa("r-project", fill="#4287f5")` is an *operating environment*:]
 
 --
 
-.pull-right[
-.large[...and options for .redbracket[presentation]]
-
-![](img/help3.PNG)
-]
+<img src="img/microsoft.png"
+     width="520" height="320"
+     style="position:absolute; left:360px; bottom:30px;">
 
 ---
 
@@ -304,6 +293,9 @@ hc_gdpr
 ## https://bookdown.org/nicohahn/making_maps_with_r5/docs/leaflet.html
 ```
 ]
+---
+
+After talking with Diego (9/26) maybe spend more time on automated reports (go from simple to complex) instead of doing 3 things (e.g., maybe drop paper) - focus on reports & website/blog
 
 ---
 
