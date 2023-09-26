@@ -69,7 +69,7 @@ background-size: cover
 name: context
 class: center, middle, inverse
 
-# .fancy[The (all too) common perspective on `r fa("r-project", fill="#4287f5")`:]
+# .fancy[The (all too) limited perspective on `r fa("r-project", fill="#4287f5")`:]
 
 --
 
@@ -77,32 +77,71 @@ class: center, middle, inverse
 
 --
 .pull-left[
-Statistical Platform <br>(FORMER)
+Statistical Platform <br>(**Used to** use)
 ]
 --
 .pull-right[
-Statistical Platform <br>(NEW & SHINY)
+Statistical Platform <br>(Gonna switch to)
 ]
 
 ---
 name: better
-class: center, middle, inverse
+class: center, top, inverse
 
 # .fancy[Our perspective on `r fa("r-project", fill="#4287f5")`:]
 
---
-.pull-left[
-![](img/R.JPG) <br>
-]
---
-Operating Environment
+<img src="img/rover.JPG" height= "180" width="900" />
 
 --
-.pull-right[
-All the stuff
-]  
 
+<img src="img/stats.JPG"
+     width="150" height="200"
+     style="position:absolute; left:550px; bottom:150px;">
+
+--
+
+<img src="img/slids.png"
+     width="230" height="150"
+     style="position:absolute; left:800px; bottom:100px;">
+     
+--
+
+<img src="img/website.png"
+     width="260" height="150"
+     style="position:absolute; left:180px; bottom:105px;">
+
+--
+
+<img src="img/manuscript.png"
+     width="200" height="300"
+     style="position:absolute; left:650px; bottom:100px;">
+     
+--
+
+<img src="img/report.png"
+     width="230" height="265"
+     style="position:absolute; left:370px; bottom:60px;">
+     
+--
+
+<img src="img/dashboard.svg"
+     width="230" height="265"
+     style="position:absolute; left:600px; bottom:10px;">
+     
+--
+
+<img src="https://media.giphy.com/media/HNctoYfrbbsPPzNQS5/giphy.gif"
+     width="520" height="320"
+     style="position:absolute; left:360px; bottom:30px;">
+     
 ???
+
+1. statistics
+2. presentations
+3. websites
+4. academic manuscripts
+5. technical reports
+6. dashboards
 
 And much more. Only really limited by existing package availability, but you could also write your own package.
 
