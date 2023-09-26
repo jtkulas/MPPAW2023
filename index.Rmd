@@ -102,6 +102,11 @@ All the stuff
 
 ---
 
+After talking with Diego (9/26) maybe spend more time on automated reports (go from simple to complex) instead of doing 3 things (e.g., maybe drop paper) - focus on reports & website/blog
+
+
+---
+
 class: center, middle, inverse
 
 .pull-left[
