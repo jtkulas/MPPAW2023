@@ -260,20 +260,27 @@ hc_gdpr
 
 class: left, top, inverse
 
-# .salt[.fancy[Questions or Feature Requests???]]
+# .salt[.fancy[Questions???]]
+## .fancy[Reach out to us at...]
 
 .pull-left[
+<img class="circle" src="img/mike.jpg" width="100px"/>  
 
-# .fancy[Reach out to us at...]
-<!--- <img class="circle" src="img/kulas.jpg" width="100px"/> -->
+Mike <br>
 
-[`r fa(name = "paper-plane")` jtkulas@ergreports.com](mailto:jtkulas@ergreports.com)  
-[`r fa(name = "link")` e`r fa("r-project")`g](https://www.ergreports.com)  
-[`r fa(name = "twitter")` @jtkulas](http://twitter.com/jtkulas)  
-[`r fa(name = "youtube")` Forensic Psychometrics](https://www.youtube.com/@forensicpsychometrics8300)  
-[`r fa(name = "github")` jtkulas](http://github.com/jtkulas)]  
+<img class="circle" src="img/casey.jpg" width="100px"/>  
+
+Casey
+]
 
 .pull-right[
-<img src="img/telescope.jpg" />
+<img class="circle" src="img/diego.jpg" width="100px"/>
+Diego <br>
+
+<img class="circle" src="img/kulas.jpg" width="100px"/>  
+
+[`r fa(name = "paper-plane")` jtkulas@ergreports.com](mailto:jtkulas@ergreports.com)  
+[`r fa(name = "x-twitter")` @jtkulas](http://twitter.com/jtkulas)  
+[`r fa(name = "youtube")` Forensic Psychometrics](https://www.youtube.com/@forensicpsychometrics8300)
 ]
 
