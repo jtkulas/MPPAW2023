@@ -41,7 +41,7 @@ xaringanExtra::use_scribble()          ## page load times much worse with this e
 
 layout: true
   
-<div class="my-footer"><span>[jtkulas.github.io/MPPAW2023/](https://jtkulas.github.io/MPPAW2023)</span></div>
+<div class="my-footer"><span>MPPAW November 21, 2023</span></div> 
 
 <!-- this adds the link footer to all slides, depends on my-footer class in css-->
 
@@ -53,17 +53,17 @@ background-size: cover
 
 # 
 
-<img src="mppaw.JPG" alt="MPPAW logo" height= "125" width="188" />
+<!-- <img src="mppaw.JPG" alt="MPPAW logo" height= "125" width="188" />-->
 
 # .fancy2[.BLACK[Everything **BUT** Statistics]]  
-### .fancy2[.BLACK[`r fa("r-project",fill="#000000")` for Authoring Websites, Reports, and Presentations ...Oh My!!]]
+### .fancy2[.BLACK[`r fa("r-project",fill="#000000")` for Authoring Websites, Reports, and <br>Presentations ...Oh My!!]]
 
-.BLACK[Mike DeFabiis |] <br>
-.BLACK[Diego Figueiras |] <br>
-.BLACK[Casey Osorio-Dufoo |] <br>
-.BLACK[John Kulas | `r Sys.Date()`]
+[`r fa("linkedin", fill="#0077b5")`](https://www.linkedin.com/in/michael-defabiis-84b45b162/) .BLACK[Mike DeFabiis |] <br>
+[`r fa("linkedin", fill="#0077b5")`](https://www.linkedin.com/in/diego-figueiras-m-a-012644123/) .BLACK[Diego Figueiras |] <br>
+[`r fa("linkedin", fill="#0077b5")`](https://www.linkedin.com/in/casey-osorio-duffoo/) .BLACK[Casey Osorio-Dufoo |] <br>
+[`r fa("linkedin", fill="#0077b5")`](https://www.linkedin.com/in/johntkulas/) .BLACK[John Kulas |]
 
-<!-- this ends up being the title slide since seal = FALSE-->
+<!-- this ends up being the title slide since seal = FALSE -->
 ---
 name: context
 class: center, middle, inverse
@@ -92,13 +92,18 @@ class: center, middle, inverse
 --
 .pull-left[
 ![](img/R.JPG) <br>
-Operating Environment
 ]
+--
+Operating Environment
+
 --
 .pull-right[
 All the stuff
-]
+]  
 
+???
+
+And much more. Only really limited by existing package availability, but you could also write your own package.
 
 ---
 
@@ -207,7 +212,7 @@ class: middle, inverse
 .left-column[
 ## Interactive Graphics:
 
-.large[Several of your slides have interactive components (try scrolling/ clicking the map):]
+.large[Your document elements can have interactive components:]
 ]
 
 .right-column[
@@ -221,14 +226,13 @@ library(reticulate)
 ```{r, echo=FALSE, warning=FALSE}
 
 content <- paste(sep = "<br/>",
-  "<b><a href='https://ergreports.com/'>eRg HQ</a></b>",
-  "Minneapolis, MN",
-  "55421"
+  "<b><a href='https://www.mppaw.org/'>MPPAW</a></b>",
+  "Minneapolis, MN"
 )
 
 ergIcon <- makeIcon(
-  iconUrl = "https://ergreports.com/images/erg2.png",
-  iconWidth = 60, iconHeight = 50,
+  iconUrl = "https://media.licdn.com/dms/image/C4D0BAQE912ky8Lab0w/company-logo_200_200/0/1569277429155?e=2147483647&v=beta&t=MKYjtrMIPtpW0eGRzyN2aI_6fSAeHVDS4Ki3FiJaSyo",
+  iconWidth = 120, iconHeight = 100,
   iconAnchorX = 30, iconAnchorY = 30,
 )
 
@@ -269,20 +273,20 @@ class: left, top, inverse
 ## .fancy[Reach out to us at...]
 
 .pull-left[
-<img class="circle" src="img/mike.jpg" width="100px"/>  
+<img class="circle" src="img/mike.jpg" alt="Mike" width="100px"/>  
 
 Mike <br>
 
-<img class="circle" src="img/casey.jpg" width="100px"/>  
+<img class="circle" src="img/casey.jpg" alt="Casey" width="100px"/>  
 
 Casey
 ]
 
 .pull-right[
-<img class="circle" src="img/diego.jpg" width="100px"/>
+<img class="circle" src="img/diego.jpg" alt="Diego" width="100px"/>
 Diego <br>
 
-<img class="circle" src="img/kulas.jpg" width="100px"/>  
+<img class="circle" src="img/kulas.jpg" alt="Kulas" width="100px"/>  
 
 [`r fa(name = "paper-plane")` jtkulas@ergreports.com](mailto:jtkulas@ergreports.com)  
 [`r fa(name = "x-twitter")` @jtkulas](http://twitter.com/jtkulas)  
