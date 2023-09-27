@@ -88,7 +88,7 @@ Statistical Platform <br>(Gonna switch to)
 name: better
 class: center, top, inverse
 
-# .fancy[Our perspective on `r fa("r-project", fill="#4287f5")`:]
+# .fancy[Our *suggested orientation shift*:]
 
 <img src="img/rover.JPG" height= "180" width="900" />
 
