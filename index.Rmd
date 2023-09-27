@@ -92,16 +92,23 @@ class: center, top, inverse
 
 --
 .pull-left[
-I have 28 programs <br>(I currently use to navigate my job)
+I have 28 programs <br>(I currently use to navigate my job)<br>
 ![](img/microsoft.png)
 ]
 --
 .pull-right[
-I have a 1 (free) platform <br>(to rule them all)  
+I have a 1 (free) platform <br>(to rule them all)  <br>
 ![](img/R.JPG)
 ]
---
+
 ![](img/ring.png)
+---
+
+class: center, middle, inverse
+
+#.fancy[`r fa("r-project", fill="#4287f5")` is a *multifunctional* operating environment:]
+
+![](https://media.giphy.com/media/NV4cSrRYXXwfUcYnua/giphy.gif)
 
 ---
 
@@ -164,14 +171,6 @@ class: center, top, inverse
 6. dashboards
 
 And much more. Only really limited by existing package availability, but you could also write your own package.
-
----
-
-class: center, middle, inverse
-
-#.fancy[`r fa("r-project", fill="#4287f5")` is a *multifunctional* operating environment:]
-
-![](https://media.giphy.com/media/NV4cSrRYXXwfUcYnua/giphy.gif)
 
 ---
 
