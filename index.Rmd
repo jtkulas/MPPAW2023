@@ -69,7 +69,7 @@ background-size: cover
 name: context
 class: center, middle, inverse
 
-# .fancy[The (much too) limited perspective on `r fa("r-project", fill="#4287f5")`:]
+# .fancy[The (much too) common perspective on `r fa("r-project", fill="#4287f5")`:]
 
 --
 .pull-left[
@@ -101,7 +101,7 @@ class: center, middle, inverse
 name: new
 class: center, top, inverse
 
-# .fancy[The (recommended) broader perspective on `r fa("r-project", fill="#4287f5")`:]
+# .fancy[A better (more useful) perspective on `r fa("r-project", fill="#4287f5")`:]
 
 --
 .pull-left[
@@ -131,6 +131,9 @@ style="position:absolute; left:532px; bottom:347px;">
 I have a 1 (free) platform <br>.rblue[(**to rule them all**)]<br>
 <img src="img/R.png"
      width="200" height="150">
+
+<img src="img/thisway.webp" width="100", height="80"
+style="position:absolute; left:675px; bottom:350px;">
 ]
 
 ![](img/ring.png)
@@ -244,7 +247,7 @@ class: center, top, inverse
 name: context
 class: left, top, inverse
 
-#.fancy[The evolution of packages...]
+#.fancy[The evolution of authoring packages...]
 
 
 <img src="img/rmd_ecosystem.png"
@@ -263,7 +266,7 @@ class: left, top, inverse
 name: RStudio
 class: left, top, inverse
 
-#.fancy[...parallels the rebranding of] `r fa("r-project", fill="#4287f5")` .rblue[Studio]
+#.fancy[...parallels the evolution of] `r fa("r-project", fill="#4287f5")` .rblue[Studio]
 
 
 ---
