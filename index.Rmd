@@ -93,17 +93,14 @@ class: center, top, inverse
 --
 .pull-left[
 I have 28 programs <br>(I currently use to navigate my job)
+![](img/microsoft.png)
 ]
 --
 .pull-right[
-I have a 1 (free) platform <br>(to rule them all)
+I have a 1 (free) platform <br>(to rule them all)  
+![](img/R.JPG)
 ]
-
 --
-
-.pull-left[![](img/microsoft.png)]
-.pull-right[![](img/R.JPG)]
-
 ![](img/ring.png)
 
 ---
@@ -170,15 +167,11 @@ And much more. Only really limited by existing package availability, but you cou
 
 ---
 
-class: center, top, inverse
+class: center, middle, inverse
 
-#.fancy[`r fa("r-project", fill="#4287f5")` is an *operating environment*:]
+#.fancy[`r fa("r-project", fill="#4287f5")` is a *multifunctional* operating environment:]
 
---
-
-<img src="img/microsoft.png"
-     width="520" height="320"
-     style="position:absolute; left:360px; bottom:30px;">
+![](https://media.giphy.com/media/NV4cSrRYXXwfUcYnua/giphy.gif)
 
 ---
 
