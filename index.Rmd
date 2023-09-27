@@ -198,143 +198,34 @@ And much more. Only really limited by existing package availability, but you cou
 
 ---
 
-class: left, middle, inverse
-
-## We'll just be focusing on how to use a few of the most popular .redbracket[presentation] options:
-
-.right[
-![](img/help4.PNG)
-]
+After talking with Diego (9/26) maybe spend more time on automated reports (go from simple to complex) instead of doing 3 things (e.g., maybe drop paper) - focus on reports & website/blog
 
 ---
+class: left, top, inverse
 
-class: left, middle, inverse
-
-.pull-left[#.fancy[Cloning:]
-
-.large[
-+ Most useful if you'd like to use presentation notes  
-+ Activated by depressing the ".redbracket[C]" key:  ]
-]
-
-.pull-right[ 
-![](img/clone.PNG)
-
-
-![](img/clone.jpg)
-]
-
-???
-
-Your notes will be available to you here in presenter mode, but only you will view them as long as you present a "cloned" screen.   
-
----
-
-class: center, middle, inverse
-
-##.fancy[Cloning] (Continued)
+##.salt[.fancy[Additional resources:]]
 
 .pull-left[
+###.fancy[Alison Hill]:
++ [`r fa("github")`](https://github.com/apreshill) Source code
++ [`r fa("youtube", fill="red")`](https://www.youtube.com/channel/UCQYM-t2ut2zXr4d7TIFya1A) Tutorials
++ [`r fa("blog")`](https://www.apreshill.com/) Personal blog <br>
 
-# 1. `r fa(name = "desktop", fill = "white")`
-
-.large[On the **presentation** screen:
-
-Move the cloned window here, <br>
-then press ".redbracket[F]" for full-screen mode]
 ]
-
---
 
 .pull-right[
+###.fancy[Yihui Xie]:  
++ [`r fa("github")`](https://github.com/yihui) Source code & sassy talk
++ [`r fa(name = "x-twitter")`](https://twitter.com/xieyihui?lang=en) Twitter stuff
++ [`r fa("blog")`](https://yihui.org/) Personal blog  
 
-# 2. `r fa(name = "laptop", fill = "white")`
+###.fancy[Posit PBC]:
++ [`r fa("youtube", fill="red")`](https://www.youtube.com/@PositPBC) Tutorials (Tom Mock does Quarto)
++ [`r fa("message")`](https://community.rstudio.com/) Discussion forum
++ [`r fa(name="x-twitter")`](https://twitter.com/posit_pbc) Not very active
 
-.large[On **your laptop** screen:
 
-Press ".redbracket[P]" for presenter mode] 
 ]
-
----
-
-name: draw
-class: right, inverse, bottom
-
-.left-column[
-# Also take note of the <br> .fat[.fancy["Pencil"!]] `r anicon::faa("pencil-alt", animate="wrench")`
-]
-
-.right-column[
-![](https://media.giphy.com/media/1xphakLtTYmJGhkWl4/giphy.gif?cid=ecf05e47i2e7iv2efglevlr6js37z83jde3oedst7jshfyvp&rid=giphy.gif&ct=g)
-]
-
----
-name: ninja
-class: middle, inverse
-
-## You can .salt[.fancy[edit]] your slides by activating the pencil:
-
-![](ezgif.com-gif-maker.gif)
----
-
-.left-column[
-## Interactive Graphics:
-
-.large[Your document elements can have interactive components:]
-]
-
-.right-column[
-
-```{r include=FALSE}
-library(leaflet)
-library(dplyr)
-library(reticulate)
-```
-
-```{r, echo=FALSE, warning=FALSE}
-
-content <- paste(sep = "<br/>",
-  "<b><a href='https://www.mppaw.org/'>MPPAW</a></b>",
-  "Minneapolis, MN"
-)
-
-ergIcon <- makeIcon(
-  iconUrl = "https://media.licdn.com/dms/image/C4D0BAQE912ky8Lab0w/company-logo_200_200/0/1569277429155?e=2147483647&v=beta&t=MKYjtrMIPtpW0eGRzyN2aI_6fSAeHVDS4Ki3FiJaSyo",
-  iconWidth = 120, iconHeight = 100,
-  iconAnchorX = 30, iconAnchorY = 30,
-)
-
-hc_gdpr <- leaflet() %>%
-  setView(lng= -93.24649681376336, lat=44.99948959471243, zoom=5) %>%
-#   addTiles() %>%
- addProviderTiles(
-    "Stamen.Toner",
-    group = "Stamen.Toner"
-  ) %>%
-   addWMSTiles(
-    "http://mesonet.agron.iastate.edu/cgi-bin/wms/nexrad/n0r.cgi",
-    layers = "nexrad-n0r-900913",
-    options = WMSTileOptions(format = "image/png", transparent = TRUE, opacity = 0.35),
-    attribution = "Weather data © IEM Nexrad") %>%
-    addMarkers(-93.23, 45.0, icon=ergIcon, popup=content)
-  #    addCircleMarkers(-93.23, 45.0, popup=content, radius=20)
-  #  addPopups(-93.23, 45.0, content,
-#    options = popupOptions(closeButton = FALSE)
-#)
-
-
-htmlwidgets::saveWidget(hc_gdpr, "hc_gdpr.html", selfcontained = TRUE, knitrOptions = list())
-hc_gdpr
-## helpful(?) for interactive plots in GitPages sites:
-
-## http://ryankuhn.net/blog/How-To-Use-Plotly-With-Jekyll
-
-## https://bookdown.org/nicohahn/making_maps_with_r5/docs/leaflet.html
-```
-]
----
-
-After talking with Diego (9/26) maybe spend more time on automated reports (go from simple to complex) instead of doing 3 things (e.g., maybe drop paper) - focus on reports & website/blog
 
 ---
 
