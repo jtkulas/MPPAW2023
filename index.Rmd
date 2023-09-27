@@ -108,19 +108,22 @@ class: center, top, inverse
 I have many platforms <br>(I currently use to navigate my job):<br>
 
 <img src="img/word.png" width="100" height="100"  
-style="position:absolute; left:70px; bottom:330px;">
+style="position:absolute; left:10px; bottom:330px;">
 
 <img src="img/excel.png" width="100" height="100"  
-style="position:absolute; left:180px; bottom:330px;">
+style="position:absolute; left:120px; bottom:330px;">
 
 <img src="img/powerpoint.png" width="100" height="100"  
-style="position:absolute; left:290px; bottom:330px;">
+style="position:absolute; left:230px; bottom:330px;">
 
 <img src="img/spss_solo.png" width="100" height="100"  
-style="position:absolute; left:400px; bottom:330px;">
+style="position:absolute; left:340px; bottom:330px;">
 
 <img src="img/powerbi.png" width="100" height="100"  
-style="position:absolute; left:500px; bottom:330px;">
+style="position:absolute; left:437px; bottom:330px;">
+
+<img src="img/qualtrics.png" width="130" height="65"  
+style="position:absolute; left:532px; bottom:347px;">
 
 ]
 --
