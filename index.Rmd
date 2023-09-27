@@ -82,7 +82,7 @@ I have a statistical program <br>(I'm gonna switch to)
 
 --
 
-![](img/spsstor.png)
+![](img/spsstor.PNG)
 
 ---
 
@@ -206,7 +206,7 @@ class: left, top, inverse
 ##.salt[.fancy[Additional resources:]]
 
 .pull-left[
-###.fancy[Alison Hill]:
+###<img class="circle" src="img/alison.jpg" alt="Alison" width="70px"/>.fancy[Alison Hill]: 
 + [`r fa("github")`](https://github.com/apreshill) Source code
 + [`r fa("youtube", fill="red")`](https://www.youtube.com/channel/UCQYM-t2ut2zXr4d7TIFya1A) Tutorials
 + [`r fa("blog")`](https://www.apreshill.com/) Personal blog <br>
@@ -214,12 +214,12 @@ class: left, top, inverse
 ]
 
 .pull-right[
-###.fancy[Yihui Xie]:  
+###<img class="circle" src="img/yihui.png" alt="Yihui" width="70px"/>.fancy[Yihui Xie]:  
 + [`r fa("github")`](https://github.com/yihui) Source code & sassy talk
 + [`r fa(name = "x-twitter")`](https://twitter.com/xieyihui?lang=en) Twitter stuff
 + [`r fa("blog")`](https://yihui.org/) Personal blog  
 
-###.fancy[Posit PBC]:
+###<img class="circle" src="img/posit.jpg" alt="Posit PBC" width="70px"/>.fancy[Posit PBC]:  
 + [`r fa("youtube", fill="red")`](https://www.youtube.com/@PositPBC) Tutorials (Tom Mock does Quarto)
 + [`r fa("message")`](https://community.rstudio.com/) Discussion forum
 + [`r fa(name="x-twitter")`](https://twitter.com/posit_pbc) Not very active
