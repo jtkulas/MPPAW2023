@@ -73,11 +73,11 @@ class: center, middle, inverse
 
 --
 .pull-left[
-Statistical Platform <br>(Currently use)
+I have a statistical program <br>(I currently use)
 ]
 --
 .pull-right[
-Statistical Platform <br>(Gonna switch to)
+I have a statistical program <br>(I'm gonna switch to)
 ]
 
 --
@@ -85,6 +85,29 @@ Statistical Platform <br>(Gonna switch to)
 ![](img/SPSS.JPG)
 
 ---
+name: new
+class: center, top, inverse
+
+# .fancy[The (recommended) broader perspective on `r fa("r-project", fill="#4287f5")`:]
+
+--
+.pull-left[
+I have 28 programs <br>(I currently use to navigate my job)
+]
+--
+.pull-right[
+I have a 1 (free) platform <br>(to rule them all)
+]
+
+--
+
+.pull-left[![](img/microsoft.png)]
+.pull-right[![](img/R.JPG)]
+
+![](img/ring.png)
+
+---
+
 name: better
 class: center, top, inverse
 
