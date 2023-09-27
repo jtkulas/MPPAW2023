@@ -85,6 +85,20 @@ I have a statistical program <br>(I'm gonna switch to)
 ![](img/SPSS.JPG)
 
 ---
+
+<img src="https://media.giphy.com/media/Z3GLowQaNk6qPLNN93/giphy.gif"
+ width="1300" height="700"
+ style="position:absolute; left:0px; bottom:0px;">
+
+---
+
+class: center, middle, inverse
+
+#.fancy[`r fa("r-project", fill="#4287f5")` is a *multifunctional* operating environment:]
+
+![](https://media.giphy.com/media/NV4cSrRYXXwfUcYnua/giphy.gif)
+
+---
 name: new
 class: center, top, inverse
 
@@ -102,14 +116,6 @@ I have a 1 (free) platform <br>(to rule them all)  <br>
 ]
 
 ![](img/ring.png)
----
-
-class: center, middle, inverse
-
-#.fancy[`r fa("r-project", fill="#4287f5")` is a *multifunctional* operating environment:]
-
-![](https://media.giphy.com/media/NV4cSrRYXXwfUcYnua/giphy.gif)
-
 ---
 
 name: better
