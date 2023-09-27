@@ -120,3 +120,11 @@ h1, h2, h3 {
 .LARGE { 
   font-size: 300%;
 }
+
+.spssred {
+  color: #e10000;
+}
+
+.rblue {
+  color: #4287f5;
+}

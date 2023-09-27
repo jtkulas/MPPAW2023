@@ -73,11 +73,11 @@ class: center, middle, inverse
 
 --
 .pull-left[
-I have a statistical program <br>(I currently use)
+I have a statistical program <br>.spssred[(**I currently use**)]
 ]
 --
 .pull-right[
-I have a statistical program <br>(I'm gonna switch to)
+I have a statistical program <br>.rblue[(**I'm gonna switch to**)]
 ]
 
 --
@@ -139,7 +139,9 @@ I have a 1 (free) platform <br>(to rule them all):  <br>
 name: better
 class: center, top, inverse
 
-# .fancy[Our *recommended orientation shift*:]
+# .fancy[Our *recommended orientation shift*:]  
+
+--
 
 <img src="img/rover.JPG" height= "180" width="900" />
 
@@ -181,9 +183,9 @@ class: center, top, inverse
      
 --
 
-<img src="https://media.giphy.com/media/HNctoYfrbbsPPzNQS5/giphy.gif"
-     width="520" height="320"
-     style="position:absolute; left:360px; bottom:30px;">
+<img src="https://media.giphy.com/media/YMWc18P93KeyI/giphy.gif"
+     width="520" height="370"
+     style="position:absolute; left:360px; bottom:10px;">
      
 ???
 
@@ -195,6 +197,48 @@ class: center, top, inverse
 6. dashboards
 
 And much more. Only really limited by existing package availability, but you could also write your own package.
+
+---
+name: how
+class: center, top, inverse
+
+##.fancy[`r emo::ji("face_with_raised_eyebrow")` How? `r emo::ji("dizzy_face")`]
+
+--
+
+.pull-left[
+## .salt[.fancy[Packages!!]]
+
+<img src="img/package3.png"
+     width="300" height="300"
+     style="position:absolute; left:180px; bottom:120px;">
+     
+<img src="img/package2.svg"
+     width="200" height="200"
+     style="position:absolute; left:90px; bottom:70px;">
+     
+<img src="img/package1.svg"
+     width="300" height="300"
+     style="position:absolute; left:350px; bottom:10px;">
+]
+
+--
+
+.pull-right[
+## .salt[.fancy[`r fa("r-project", fill="#4287f5")` Packages:]]
+
+<img src="img/rmarkdown.png"
+     width="185" height="210"
+     style="position:absolute; right:202.5px; bottom:167px;">
+     
+<img src="img/quarto.png"
+     width="185" height="210"
+     style="position:absolute; right:110px; bottom:10px;">
+     
+<img src="img/xaringan.png"
+     width="185" height="210"
+     style="position:absolute; right:295px; bottom:10px;">
+]
 
 ---
 
