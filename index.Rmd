@@ -72,17 +72,17 @@ class: center, middle, inverse
 # .fancy[The (all too) limited perspective on `r fa("r-project", fill="#4287f5")`:]
 
 --
-
-![](img/SPSS.JPG)
-
---
 .pull-left[
-Statistical Platform <br>(**Used to** use)
+Statistical Platform <br>(Currently use)
 ]
 --
 .pull-right[
 Statistical Platform <br>(Gonna switch to)
 ]
+
+--
+
+![](img/SPSS.JPG)
 
 ---
 name: better
