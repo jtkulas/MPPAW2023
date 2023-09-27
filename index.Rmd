@@ -93,7 +93,7 @@ class: center, middle, inverse
 
 --
 
-##.fancy[It is actually a *multipurpose* operating environment]
+##.fancy[It is actually a .rblue[multipurpose] operating environment]
 
 ![](https://media.giphy.com/media/NV4cSrRYXXwfUcYnua/giphy.gif)
 
@@ -139,7 +139,7 @@ I have a 1 (free) platform <br>(to rule them all):  <br>
 name: better
 class: center, top, inverse
 
-# .fancy[Our *recommended orientation shift*:]  
+# .fancy[Common processes `r fa("r-project", fill="#4287f5")` can power:]  
 
 --
 
