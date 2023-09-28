@@ -266,10 +266,67 @@ class: left, top, inverse
 name: RStudio
 class: left, top, inverse
 
-#.fancy[...parallels the evolution of] `r fa("r-project", fill="#4287f5")` .rblue[Studio]
+#.fancy[...parallels the evolution of] `r fa("r-project", fill="#4287f5")` .rblue[Studio]:
 
+<img src="img/rstudio.png"
+     width="550" height="200"
+     style="position:absolute; left:100px; top:170px;">
+     
+<img src="img/bluearrow.svg"
+     width="250" height="250"     
+     style="position:absolute; right: 300px; top: 160px;">
+     
+<img src="img/posit.svg"
+     width="205" height="230"
+     style="position:absolute; right:100px; top:150px;">
+
+--
+
+<img src="img/rmd_ecosystem.png"
+     width="530" height="300"
+     style="position:absolute; left:125px; bottom:20px;">
+
+<img src="img/bluearrow.svg"
+     width="350" height="250"     
+     style="position:absolute; right: 300px; bottom: 30px;">
+     
+<img src="img/quarto.png"
+     width="205" height="230"
+     style="position:absolute; right:100px; bottom:50px;">
+     
+---
+class: center, top, inverse
+
+.pull-left[
+#.fancy[`r fa("r-project", fill="#4287f5")` Studio:]
+
+<img src="img/R.png"
+     width="200" height="150">
+     
+<img src="img/python.png"
+     width="50" height="60"
+     style="position:absolute; left:200px; top:300px;">
+
+]
+
+.pull-right[
+#.fancy[Posit:]
+
+<img src="img/R.png"
+     width="200" height="150">
+     
+<img src="img/python.png"
+     width="250" height="280"
+          style="position:absolute; right:30px; bottom:80px;">
+
+<img src="img/julia.png"
+     width="300" height="300"     
+     style="position:absolute; right:300px; bottom:80px;">
+
+]
 
 ---
+
 After talking with Diego (9/26) maybe spend more time on automated reports (go from simple to complex) instead of doing 3 things (e.g., maybe drop paper) - focus on reports & website/blog
 
 ---
