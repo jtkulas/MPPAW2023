@@ -260,7 +260,11 @@ class: left, top, inverse
      
 <img src="img/quarto.png"
      width="205" height="230"
-     style="position:absolute; right:100px; bottom:170px;">
+     style="position:absolute; right:100px; bottom:170px;">  
+     
+???
+
+Quarto actually an independent platform. There is a Quarto `r fa("r-project", fill="#4287f5")` package, but it mostly provides shortcuts for control-line commands
 
 ---
 name: RStudio
@@ -341,7 +345,7 @@ class: left, top, inverse
 
 #.fancy[.salt[Tonight:]]
 
-##.fancy[We'll be using both the "legacy" .rblue[rmarkdown] as well as the "new" .rblue[Quarto] packages to generate:]
+##.fancy[We'll be using both the "legacy" .rblue[rmarkdown] packages as well as the "new" .rblue[Quarto] platform to generate:]
 
 --
 
