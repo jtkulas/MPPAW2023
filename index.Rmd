@@ -67,55 +67,6 @@ background-size: cover
 <!-- this ends up being the title slide since seal = FALSE -->
 
 ---
-name: whazzr
-class: center, middle, inverse
-
-<img src="img/R.png" width="300", height="225"
-style="position:absolute; left:65px; bottom:250px;">
-
---
-
-<img src="img/Blue_sphere.svg.png" width="50", height="50"
-style="position:absolute; left:385px; bottom:360px;">
-<img src="img/Blue_sphere.svg.png" width="50", height="50"
-style="position:absolute; left:385px; bottom:300px;">
-
-<img src="img/rsnip.png" width="700", height="500"
-style="position:absolute; right:50px; top:80px;">
-
-???
-+ Typical software program
-+ Free/open-source
-+ Language and platform basically indistinguishable
-+ Two primary operating environments (interactive **console** and static **script**)
-+ Function over form
-
----
-name: whazzrstudio
-class: center, middle, inverse
-
-<img src="img/rstudio.png" width="420", height="160"
-style="position:absolute; left:10px; bottom:280px;">
-
---
-
-<img src="img/Blue_sphere.svg.png" width="50", height="50"
-style="position:absolute; left:440px; bottom:360px;">
-<img src="img/Blue_sphere.svg.png" width="50", height="50"
-style="position:absolute; left:440px; bottom:300px;">
-
-<img src="img/rstudiosnip.png" width="690", height="470"
-style="position:absolute; right:10px; top:100px;">
-
-???
-+ Commercial but also free
-+ Facilitates use of `r fa("r-project")`
-+ Function maintained, form improved
-+ 4 operating environments
-+ Blurred boundaries (we'll refer to `r fa("r-project")` even if we're technically operating within `r fa("r-project")` Studio)  
-+ If anyone hasn't installed `r fa("r-project")` or `r fa("r-project")` Studio, **send a private chat to Roger** - he will let us know and we'll help in breakout rooms during intro spiel 
-
----
 name: context
 class: center, middle, inverse
 
@@ -257,13 +208,6 @@ class: center, top, inverse
 
 ##.fancy[`r emo::ji("face_with_raised_eyebrow")` How? `r emo::ji("dizzy_face")`]
 
---
-
-<img src="img/rstudio.png" width="220", height="80"
-style="position:absolute; left:175px; top:120px;"> 
-<img src="img/ampersand.PNG" width="70", height="70"
-style="position:absolute; left:400px; top:123px;"> 
-
 .pull-left[
 ## .salt[.fancy[Packages!!]]
 
@@ -282,21 +226,110 @@ style="position:absolute; left:400px; top:123px;">
 
 --
 
+<img src="img/ampersand.PNG" width="100", height="100"
+style="position:absolute; right:590px; top:270px;">
+<img src="img/rstudio.png" width="550", height="200"
+style="position:absolute; right:25px; top:300px;"> 
+ 
+
+---
+name: whazzr
+class: center, middle, inverse
+
+<img src="img/R.png" width="300", height="225"
+style="position:absolute; left:65px; bottom:250px;">
+
+--
+
+<img src="img/Blue_sphere.svg.png" width="50", height="50"
+style="position:absolute; left:385px; bottom:360px;">
+<img src="img/Blue_sphere.svg.png" width="50", height="50"
+style="position:absolute; left:385px; bottom:300px;">
+
+<img src="img/rsnip.png" width="700", height="500"
+style="position:absolute; right:50px; top:80px;">
+
+???
++ Typical software program
++ Free/open-source
++ Language and platform basically indistinguishable
++ Two primary operating environments (interactive **console** and static **script**)
++ Function over form
+
+---
+name: whazzrstudio
+class: center, middle, inverse
+
+<img src="img/rstudio.png" width="420", height="160"
+style="position:absolute; left:10px; bottom:280px;">
+
+--
+
+<img src="img/Blue_sphere.svg.png" width="50", height="50"
+style="position:absolute; left:440px; bottom:360px;">
+<img src="img/Blue_sphere.svg.png" width="50", height="50"
+style="position:absolute; left:440px; bottom:300px;">
+
+<img src="img/rstudiosnip.png" width="690", height="470"
+style="position:absolute; right:10px; top:100px;">
+
+???
++ Commercial but also free
++ Facilitates use of `r fa("r-project")`
++ Function maintained, form improved
++ 4 operating environments
++ Blurred boundaries (we'll refer to `r fa("r-project")` even if we're technically operating within `r fa("r-project")` Studio)  
++ If anyone hasn't installed `r fa("r-project")` or `r fa("r-project")` Studio, **send a private chat to Roger** - he will let us know and we'll help in breakout rooms during intro spiel 
+
+---
+name: packages
+class: center, top, inverse
+
+.pull-left[
+## .fancy[[`r fa("r-project", fill="#4287f5")` Packages](https://support.posit.co/hc/en-us/articles/201057987-Quick-list-of-useful-R-packages):]
+]
+
+--
+
+<img src="img/hex-ggplot2.png"
+     width="185" height="210"
+     style="position:absolute; left:202.5px; bottom:262px;">
+
+--
+
+<img src="img/dplyr.png"
+     width="180" height="205"
+     style="position:absolute; left:109px; bottom:105px;">
+     
+--
+
+<img src="img/ctticc.png"
+     width="190" height="215"
+     style="position:absolute; left:292px; bottom:100px;">
+     
+--
+
 .pull-right[
-## .salt[.fancy[`r fa("r-project", fill="#4287f5")` Packages:]]
+## .fancy[`r fa("r-project", fill="#4287f5")` "Authoring" Packages:]
+]  
+
+--
 
 <img src="img/rmarkdown.png"
      width="185" height="210"
-     style="position:absolute; right:202.5px; bottom:172px;">
+     style="position:absolute; right:202.5px; bottom:262px;">
      
-<img src="img/quarto.png"
-     width="185" height="210"
-     style="position:absolute; right:107px; bottom:10px;">
-     
+--
+
 <img src="img/xaringan.png"
      width="185" height="210"
-     style="position:absolute; right:297px; bottom:10px;">
-]
+     style="position:absolute; right:297px; bottom:100px;">
+     
+--
+
+<img src="img/quarto.png"
+     width="185" height="210"
+     style="position:absolute; right:107px; bottom:100px;">
 
 ---
 name: context
