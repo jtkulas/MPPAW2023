@@ -65,6 +65,7 @@ background-size: cover
 ]
 
 <!-- this ends up being the title slide since seal = FALSE -->
+
 ---
 name: whazzr
 class: center, middle, inverse
@@ -82,6 +83,13 @@ style="position:absolute; left:385px; bottom:300px;">
 <img src="img/rsnip.png" width="700", height="500"
 style="position:absolute; right:50px; top:80px;">
 
+???
++ Typical software program
++ Free/open-source
++ Language and platform basically indistinguishable
++ Two primary operating environments (interactive **console** and static **script**)
++ Function over form
+
 ---
 name: whazzrstudio
 class: center, middle, inverse
@@ -98,6 +106,14 @@ style="position:absolute; left:440px; bottom:300px;">
 
 <img src="img/rstudiosnip.png" width="690", height="470"
 style="position:absolute; right:10px; top:100px;">
+
+???
++ Commercial but also free
++ Facilitates use of `r fa("r-project")`
++ Function maintained, form improved
++ 4 operating environments
++ Blurred boundaries (we'll refer to `r fa("r-project")` even if we're technically operating within `r fa("r-project")` Studio)  
++ If anyone hasn't installed `r fa("r-project")` or `r fa("r-project")` Studio, **send a private chat to Roger** - he will let us know and we'll help in breakout rooms during intro spiel 
 
 ---
 name: context
@@ -233,7 +249,7 @@ class: center, top, inverse
 5. technical reports
 6. dashboards
 
-And much more. Only really limited by existing package availability, but you could also write your own package.
+And much more. Only really limited by creativity and/or existing package availability, but you could also write your own package.
 
 ---
 name: how
