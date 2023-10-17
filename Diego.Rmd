@@ -1,0 +1,92 @@
+---
+title: "Everything BUT Statistics"
+subtitle: "R for Authoring Websites, Reports, and Presentations Oh My!!"
+author: "Casey"
+date: "last updated: `r Sys.Date()`"
+output:
+  xaringan::moon_reader:
+    css: ["default", "css/sfah.css", "css/fonts.css"]
+    lib_dir: libs
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+      ratio: "16:9"
+      beforeInit: "https://platform.twitter.com/widgets.js"
+    seal: false 
+    includes:
+      in_header: header.html
+---
+
+```{r setup, include=FALSE}
+options(htmltools.dir.version = FALSE)
+library(knitr)
+knitr::opts_chunk$set(warning = FALSE, message = FALSE)
+# options(knitr.table.format = "html")
+library(tidyverse)
+library(babynames)
+library(fontawesome) # from github: https://github.com/rstudio/fontawesome
+library(DiagrammeR)
+```
+
+name: context
+class: center, middle, inverse
+
+# .fancy[The (much too) common perspective on `r fa("r-project", fill="#4287f5")`:]
+
+???
+Presentation notes here
+
+--
+.pull-left[
+I have a statistical program <br>.spssred[(**I currently use**)]
+]
+--
+.pull-right[
+I have a statistical program <br>.rblue[(**I'm gonna switch to**)]
+]
+
+--
+
+![](img/spsstor.PNG)
+
+---
+name: tonight
+class: left, top, inverse
+
+#.fancy[.salt[Tonight:]]
+
+##.fancy[We'll be using both the "legacy" .rblue[rmarkdown] packages as well as the "new" .rblue[Quarto] platform to generate:]
+
+--
+
+? Whatever we decide to present goes here (put in images of website, report, etc)
+
+---
+
+class: left, top, inverse
+
+# .salt[.fancy[Questions???]]
+## .fancy[Reach out to us at...]
+
+.pull-left[
+<img class="circle" src="img/mike.jpg" alt="Mike" width="100px"/>  
+
+Mike <br>
+
+<img class="circle" src="img/casey.jpg" alt="Casey" width="100px"/>  
+
+Casey
+]
+
+.pull-right[
+<img class="circle" src="img/diego.jpg" alt="Diego" width="100px"/>
+Diego <br>
+
+<img class="circle" src="img/kulas.jpg" alt="Kulas" width="100px"/>  
+
+[`r fa(name = "paper-plane")` jtkulas@ergreports.com](mailto:jtkulas@ergreports.com)  
+[`r fa(name = "x-twitter")` @jtkulas](http://twitter.com/jtkulas)  
+[`r fa(name = "youtube")` Forensic Psychometrics](https://www.youtube.com/@forensicpsychometrics8300)
+]
+
