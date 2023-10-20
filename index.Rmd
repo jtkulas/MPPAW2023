@@ -344,6 +344,8 @@ class: left, top, inverse
      width="900" height="500"
      style="position:absolute; right:350px; bottom:30px;">
      
+--
+     
 <img src="img/bracket.png"
      width="300" height="500"
      style="position:absolute; right:250px; bottom:30px;">
