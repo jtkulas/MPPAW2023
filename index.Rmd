@@ -208,6 +208,8 @@ class: center, top, inverse
 
 ##.fancy[`r emo::ji("face_with_raised_eyebrow")` How? `r emo::ji("dizzy_face")`]
 
+--
+
 .pull-left[
 ## .salt[.fancy[Packages!!]]
 
