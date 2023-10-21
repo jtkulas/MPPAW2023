@@ -155,7 +155,7 @@ class: center, top, inverse
 6. technical reports
 7. dashboards
 
-And much more. Only really limited by creativity and/or existing package availability, but you could also write your own package.
+And much more. Only really limited by YOUR creativity & vision.
 
 --
 
