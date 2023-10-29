@@ -62,7 +62,18 @@ class: left, top, inverse
 
 ? Whatever we decide to present goes here (put in images of website, report, etc)
 
+
 ---
+name: Building Websites in Quataro
+class: left, top
+
+From the file menu, click File -> New Project
+
+Select New Directory -> Quarto Website
+
+Choose a name for your new directory
+
+--
 
 class: left, top, inverse
 
