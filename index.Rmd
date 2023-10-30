@@ -13,6 +13,7 @@ output:
       countIncrementalSlides: false
       ratio: "16:9"
       beforeInit: "https://platform.twitter.com/widgets.js"
+      countdown: 60000
     seal: false 
     includes:
       in_header: header.html
@@ -151,9 +152,10 @@ class: center, top, inverse
 2. presentations
 3. websites
 4. academic manuscripts
-5. dissertations & theses
-6. technical reports
-7. dashboards
+5. books
+6. dissertations & theses
+7. technical reports
+8. dashboards
 
 And much more. Only really limited by YOUR creativity & vision.
 
@@ -184,24 +186,30 @@ And much more. Only really limited by YOUR creativity & vision.
 <img src="img/manuscript.png"
      width="200" height="300"
      style="position:absolute; left:650px; bottom:100px;">
+
+--
+
+<img src="img/books.png"
+     width="200" height="300"
+     style="position:absolute; left:380px; bottom:30px;">
      
 --
 
 <img src="img/dissertation.jpg"
      width="270" height="180"
-     style="position:absolute; left:265px; bottom:180px;">
+     style="position:absolute; right:200px; bottom:180px;">
 
 --
 
 <img src="img/report.png"
      width="230" height="265"
-     style="position:absolute; left:370px; bottom:60px;">
+     style="position:absolute; left:240px; bottom:110px;">
      
 --
 
 <img src="img/dashboard.svg"
      width="230" height="265"
-     style="position:absolute; left:600px; bottom:10px;">
+     style="position:absolute; left:530px; bottom:10px;">
      
 --
 
@@ -322,6 +330,12 @@ class: center, top, inverse
 ## .fancy[`r fa("r-project", fill="#4287f5")` "Authoring" Packages:]
 ]  
 
+???
++ $\LaTeX$ & html (dates unknown)
++ literate programming (1984; code + written text)
+  + exploding recently - thanks to RStudio & Jupiter Notebooks
++ markdown (2004)
+
 --
 
 <img src="img/rmarkdown.png"
@@ -363,7 +377,7 @@ class: left, top, inverse
 
 ???
 
-Quarto actually an independent platform. There is a Quarto `r fa("r-project", fill="#4287f5")` package, but it mostly provides shortcuts for control-line commands
+Quarto actually an independent platform. There is a Quarto `r fa("r-project", fill="#4287f5")` package, but it mostly provides shortcuts for control-line commands. Markdown only launched in 2004 - this seems like a natural evolution (makes html & pdf output more seamless - also language agnostic)
 
 ---
 name: RStudio
@@ -451,6 +465,7 @@ class: left, top, inverse
 ? Whatever we decide to present goes here (put in images of website, report, etc)
 
 ---
+
 After talking with Diego (9/26) maybe spend more time on automated reports (go from simple to complex) instead of doing 3 things (e.g., maybe drop paper) - focus on reports & website/blog
 
 ---
@@ -462,8 +477,7 @@ class: left, top, inverse
 ###<img class="circle" src="img/alison.jpg" alt="Alison" width="70px"/>.fancy[Alison Hill]: 
 + [`r fa("github")`](https://github.com/apreshill) Source code
 + [`r fa("youtube", fill="red")`](https://www.youtube.com/channel/UCQYM-t2ut2zXr4d7TIFya1A) Tutorials
-+ [`r fa("blog")`](https://www.apreshill.com/) Personal blog <br>
-
++ [`r fa("blog")`](https://www.apreshill.com/) Personal blog
 ]
 
 .pull-right[
