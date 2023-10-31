@@ -12,8 +12,8 @@ output:
       highlightLines: true
       countIncrementalSlides: false
       ratio: "16:9"
-      beforeInit: "https://platform.twitter.com/widgets.js"
-      countdown: 60000
+#      beforeInit: "https://platform.twitter.com/widgets.js"
+#      countdown: 60000
     seal: false 
     includes:
       in_header: header.html
@@ -460,13 +460,29 @@ class: left, top, inverse
 
 ##.fancy[We'll be using both the "legacy" .rblue[rmarkdown] packages as well as the "new" .rblue[Quarto] platform to generate:]
 
+???
++ A template business report
++ A website
++ An automation of our business report
+  + Go from simple to complex
+
 --
 
-? Whatever we decide to present goes here (put in images of website, report, etc)
+<img src="img/kpi-report.svg"
+     width="250" height="270"
+     style="position:absolute; left:130px; bottom:70px;">
+     
+--
 
----
+<img src="img/web.png"
+     width="250" height="250"
+     style="position:absolute; left:480px; bottom:40px;">
 
-After talking with Diego (9/26) maybe spend more time on automated reports (go from simple to complex) instead of doing 3 things (e.g., maybe drop paper) - focus on reports & website/blog
+--
+
+<img src="img/automation.png"
+     width="270" height="270"
+     style="position:absolute; right:100px; bottom:50px;">
 
 ---
 class: left, top, inverse
