@@ -480,9 +480,9 @@ class: left, top, inverse
 
 --
 
-<img src="img/automation.png"
-     width="270" height="270"
-     style="position:absolute; right:100px; bottom:50px;">
+<img src="img/automation.svg"
+     width="250" height="250"
+     style="position:absolute; right:120px; bottom:90px;">
 
 ---
 class: left, top, inverse
