@@ -377,7 +377,7 @@ class: left, top, inverse
 
 ???
 
-Quarto actually an independent platform. There is a Quarto `r fa("r-project", fill="#4287f5")` package, but it mostly provides shortcuts for control-line commands. Markdown only launched in 2004 - this seems like a natural evolution (makes html & pdf output more seamless - also language agnostic)
+Quarto actually an independent platform. There is a Quarto `r fa("r-project", fill="#4287f5")` package, but it mostly provides shortcuts for control-line commands. Deep explanation of Quarto with development team available here: [`r fa("youtube", fill="red")`](https://www.youtube.com/watch?v=p5zrqrFqCTo)
 
 ---
 name: RStudio
