@@ -283,7 +283,7 @@ style="position:absolute; left:10px; bottom:280px;">
 ???
 + Commercial but also free - background here: [`r fa("youtube", fill="red")`](https://www.youtube.com/watch?v=u1Gzxg8Pd08)
   + ["Public Benefit"](https://www.law.cornell.edu/wex/public_benefit_corporation#:~:text=A%20public%20benefit%20corporation%20is,a%20responsible%20and%20sustainable%20manner.) corporation
-+ "Founded" roughly 2010
++ "Founded" roughly 2009
 + Facilitates use of `r fa("r-project")`
 + Function maintained, form improved
 + 4 operating environments
