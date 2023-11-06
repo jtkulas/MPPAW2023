@@ -86,7 +86,7 @@ Diego <br>
 <img class="circle" src="img/kulas.jpg" alt="Kulas" width="100px"/>  
 
 [`r fa(name = "paper-plane")` jtkulas@ergreports.com](mailto:jtkulas@ergreports.com)  
-[`r fa(name = "x-twitter")` @jtkulas](http://twitter.com/jtkulas)  
+[`r fa(name = "twitter")` @jtkulas](http://twitter.com/jtkulas)  
 [`r fa(name = "youtube")` Forensic Psychometrics](https://www.youtube.com/@forensicpsychometrics8300)
 ]
 
