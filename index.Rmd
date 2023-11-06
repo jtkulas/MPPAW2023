@@ -436,29 +436,29 @@ class: center, top, inverse
 
 <img src="img/rstudio.png"
      width="550" height="200"
-     style="position:absolute; left:100px; top:170px;">
+     style="position:absolute; left:100px; top:130px;">
      
 <img src="img/bluearrow.svg"
      width="250" height="250"     
-     style="position:absolute; right: 300px; top: 160px;">
+     style="position:absolute; right: 300px; top: 120px;">
      
 <img src="img/posit.svg"
      width="205" height="230"
-     style="position:absolute; right:100px; top:150px;">
+     style="position:absolute; right:100px; top:110px;">
 
 --
 
 <img src="img/rmd_ecosystem.png"
      width="530" height="300"
-     style="position:absolute; left:125px; bottom:20px;">
+     style="position:absolute; left:125px; bottom:60px;">
 
 <img src="img/bluearrow.svg"
      width="350" height="250"     
-     style="position:absolute; right: 300px; bottom: 30px;">
+     style="position:absolute; right: 300px; bottom: 70px;">
      
 <img src="img/quarto.png"
      width="205" height="230"
-     style="position:absolute; right:100px; bottom:50px;">
+     style="position:absolute; right:100px; bottom:90px;">
 
 ---
 name: timing
