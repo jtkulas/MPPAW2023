@@ -456,7 +456,22 @@ class: center, top, inverse
 <img src="img/quarto.png"
      width="205" height="230"
      style="position:absolute; right:100px; bottom:50px;">
-     
+
+---
+name: timing
+class: left, top, inverse
+
+# .fancy[Timing (for us as a field):]
+
+.pull-left[
+.large[`r fa("r-project")`Studio is a Public Benefit Corporation with a mission to create free and open source software for *data science*, *scientific research*, and .kindabig[.rblue[*technical communication*]]
+]
+]
+
+.pull-right[
+![](https://media.giphy.com/media/mVTm52JQHDlD2/giphy.gif)
+]
+
 ---
 name: tonight
 class: left, top, inverse
