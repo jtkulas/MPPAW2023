@@ -42,7 +42,7 @@ xaringanExtra::use_scribble()          ## page load times much worse with this e
 
 layout: true
   
-<div class="my-footer"><span><a href="https://jtkulas.github.io/MPPAW2023/"</span>MPPAW November 14, 2023</span></a></div> 
+<div class="my-footer"><span><a href="https://github.com/jtkulas/MPPAW2023"</span>MPPAW November 14, 2023</span></a></div> 
 
 <!-- this adds the link footer to all slides, depends on my-footer class in css-->
 
