@@ -93,3 +93,31 @@ library(plotly)
 
 plot_ly(data = penguins, x = ~bill_length_mm, y = ~bill_depth_mm, color = ~species, size = ~body_mass_g, text = ~island, alpha=.7)
 
+################################################################################
+################################################################################
+################################################################################
+
+library(ggalluvial)
+
+ggplot(as.data.frame(penguins),
+       aes(y = bill_length_mm, axis1 = island, axis2 = species)) +
+  geom_alluvium(aes(fill = sex), width = 1/12) +
+  geom_stratum(width = 1/12, fill = "black", color = "grey") +
+  geom_label(stat = "stratum", aes(label = after_stat(stratum))) +
+  scale_x_discrete(limits = c("Island", "Species"), expand = c(.05, .05)) +
+  scale_fill_brewer(type = "qual", palette = "Set1") 
+
+################################################################################
+################################################################################
+################################################################################
+
+library(ggalluvial)
+
+ggplot(as.data.frame(penguins),
+       aes(y = body_mass_g, axis1 = sex, axis2 = island)) +
+  geom_alluvium(aes(fill = species), width = 1/12) +
+  geom_stratum(width = 1/12, fill = "black", color = "grey") +
+  geom_label(stat = "stratum", aes(label = after_stat(stratum))) +
+  scale_x_discrete(limits = c("Gender", "Island"), expand = c(.05, .05)) +
+  scale_fill_brewer(type = "qual", palette = "Set1") 
+
