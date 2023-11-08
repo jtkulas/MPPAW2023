@@ -80,8 +80,16 @@ library(palmerpenguins)
 library(ggplot2)
 
 ggplot(data = penguins, aes(x = bill_length_mm, y = bill_depth_mm)) +
-  geom_point(aes(color = species, 
-                 shape = species),
-             size = 2) + 
-  geom_smooth(method = "lm", se = FALSE, aes(color = species)) +
-  scale_color_manual(values = c("darkorange","darkorchid","cyan4"))
+  geom_point(aes(color = species, shape = species, size = body_mass_g), alpha=.5) + 
+  scale_color_manual(values = c("#210a3c","#5e1b60","#c44da2"))   ## https://www.color-hex.com/color-palette/1036820
+
+################################################################################
+################################################################################
+################################################################################
+ 
+library(palmerpenguins)
+library(ggplot2)
+library(plotly)
+
+plot_ly(data = penguins, x = ~bill_length_mm, y = ~bill_depth_mm, color = ~species, size = ~body_mass_g, text = ~island, alpha=.7)
+
