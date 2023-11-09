@@ -262,6 +262,8 @@ style="position:absolute; left:65px; bottom:250px;">
 
 ???
 + Typical software program
+  + Bell labs and/or U of Aukland "product"
+  + 1993 first release
 + Free/open-source
 + Language and platform basically indistinguishable
 + Two primary operating environments (interactive **console** and static **script**)
