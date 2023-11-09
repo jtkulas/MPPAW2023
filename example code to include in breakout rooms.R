@@ -64,6 +64,26 @@ leaflet() %>%
     icon="fa-crosshairs", title="WheremIat?",
     onClick=JS("function(btn, map){ map.locate({setView: true}); }")))
 
+############################### 6) income mapped
+###############################
+###############################
+###############################
+
+library(leaflet)
+library(tidycensus)
+library(mapview)
+
+get_acs(
+  geography = "tract",
+  variables = "B19013_001",        ## Median household income
+  state = c("MN", "WI"),           ## WI friends included
+  geometry = TRUE
+) |>
+  mapview::mapview(
+    zcol = "estimate",
+    layer.name = "Median household income"    
+  )
+
 
 ################################################################################
 ################################################################################
