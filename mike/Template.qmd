@@ -1,0 +1,46 @@
+---
+format: docx
+---
+
+# Title
+
+Any notes / paragraphs relevant to what it is that you want to talk about
+
+## Subheading
+
+### Sub-Subheading
+
+```{r}
+library(palmerpenguins)
+```
+
+```{r, echo=FALSE, warning=FALSE, message=FALSE}
+
+library(ggplot2)
+
+
+
+# graph
+ggplot(penguins, aes(x=bill_length_mm, y=flipper_length_mm, shape=species, color = species)) + 
+  geom_point() + 
+  geom_smooth(method="lm", se=FALSE) +
+  labs(title="Flipper Length vs. Bill Length for Palmer Penguins",
+       x="Bill Length (mm)",
+       y="Flipper Length (mm)") + 
+  theme_minimal()
+
+```
+
+We can also do a basic barplot with ggplot2:
+
+```{r}
+
+# Basic bar plot with ggplot2
+ggplot(penguins, aes(x=species, y=body_mass_g, fill=species)) + 
+  geom_bar(stat="summary", fun="mean") + 
+  labs(title="Average Body Mass of Palmer Penguins by Species",
+       x="Species",
+       y="Average Body Mass (g)") +
+  theme_minimal()
+
+```
