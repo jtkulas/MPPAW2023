@@ -1,8 +1,9 @@
 ---
 format: docx
+title: "Title of Document"
 ---
 
-# Title
+# Main Heading
 
 Any notes / paragraphs relevant to what it is that you want to talk about
 
@@ -15,6 +16,7 @@ library(palmerpenguins)
 ```
 
 ```{r, echo=FALSE, warning=FALSE, message=FALSE}
+
 
 library(ggplot2)
 
@@ -34,6 +36,9 @@ ggplot(penguins, aes(x=bill_length_mm, y=flipper_length_mm, shape=species, color
 We can also do a basic barplot with ggplot2:
 
 ```{r}
+#| echo: false
+#| warning: false
+#| message: false
 
 # Basic bar plot with ggplot2
 ggplot(penguins, aes(x=species, y=body_mass_g, fill=species)) + 
@@ -44,3 +49,115 @@ ggplot(penguins, aes(x=species, y=body_mass_g, fill=species)) +
   theme_minimal()
 
 ```
+
+```{r}
+#| echo: false
+#| warning: false
+#| message: false
+
+library(ggalluvial)
+library(ggplot2)
+
+ggplot(as.data.frame(penguins),
+       aes(y = bill_length_mm, axis1 = island, axis2 = species)) +
+  geom_alluvium(aes(fill = sex), width = 1/12) +
+  geom_stratum(width = 1/12, fill = "black", color = "grey") +
+  geom_label(stat = "stratum", aes(label = after_stat(stratum))) +
+  scale_x_discrete(limits = c("Island", "Species"), expand = c(.05, .05)) +
+  scale_fill_brewer(type = "qual", palette = "Set1")
+```
+
+# insert image
+
+![Image description: Three types of penguins - Chinstrap, Gentoo, and Adelie.](penguins.png){width="638"}
+
+# inline r code
+
+There are `r nrow(penguins)` rows of data.
+
+`r nrow(penguins)`
+
+# insert tabs with html
+
+::: tab
+<button class="tablinks" onclick="openTab(event, &#39;Tab1&#39;)">
+
+Tab 1
+
+</button>
+
+<button class="tablinks" onclick="openTab(event, &#39;Tab2&#39;)">
+
+Tab 2
+
+</button>
+
+<button class="tablinks" onclick="openTab(event, 'Tab3')">Tab 3</button>
+:::
+
+::: {#Tab1 .tabcontent}
+<h3>Tab 1</h3>
+
+<p>Content for Tab 1.</p>
+:::
+
+::: {#Tab2 .tabcontent}
+<h3>Tab 2</h3>
+
+<p>Content for Tab 2.</p>
+:::
+
+::: {#Tab3 .tabcontent}
+<h3>Tab 3</h3>
+
+<p>Content for Tab 3.</p>
+:::
+
+```{=html}
+<script>
+function openTab(evt, tabName) {
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablinks");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" active", "");
+  }
+  document.getElementById(tabName).style.display = "block";
+  evt.currentTarget.className += " active";
+}
+</script>
+```
+# Insert tabs easily with Quarto
+
+::: panel-tabset
+# Tab Title 1
+
+Content for the first tab goes here. You can include text, code, images, etc.
+
+```{r}
+
+```
+
+# Tab Title 2
+
+Content for the second tab. This can be different from the first tab.
+
+# Tab Title 3
+
+And so on for as many tabs as you need.
+:::
+
+# Notes:
+
+walk through step-by-step
+
+maybe include title page?
+
+Default dataset = penguins
+
+ask for volunteer, they code, you help them
+
+# For breakout do html, for presentation to pdf and doc
