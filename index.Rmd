@@ -584,6 +584,140 @@ class: center, top, inverse
 <img src="img/chat.svg"
      width="80" height="80"     
      style="position:absolute; left: 380px; top: 470px;">
+
+
+---
+name: webintro
+class: center, top, inverse
+
+# .fancy[.salt[Websites] with Quarto:]
+
+.pull-left[
+<img src="img/web.png"
+     style="position:absolute; left: 50px; top: 150px;">
+]
+
+.pull-right[
+![](img/casey.jpg)
+]
+
+---
+class: center, top, inverse
+
+# Slide describing scope:
+
+.pull-left[
+1. basic website
+2. local first
+3. published second
+4. *you* can take and customize as desired
+]
+
+---
+
+name: Building Websites in Quatro
+class: left, top, inverse
+
+## Getting started:
+
+.pull-left[.large[
+1. From the file menu, click:
+  + `File -> New Project`
+2. Select:
+  + `New Directory -> Quarto Website`
+3. Create a name for your `website` (in the black box)
+4. Choose a name for your `New Directory` (blue box)
+]
+]
+
+<img src="img/Website/First.jpg"
+     style="position:absolute; right: 330px; top: 5px;">
+--
+
+<img src="img/Website/Third.jpg"
+     style="position:absolute; right: 70px; bottom: 200px;">
+--
+
+<img src="img/Website/fourth.jpg"
+     style="position:absolute; right: 20px; bottom: -10px;">
+--
+
+<img src="img/Website/fifth.jpg"
+     style="position:absolute; right: 5px; bottom: 10px;">
+
+---
+class: left, top, inverse
+
+# The result:
+
+.large[You should have two files:]
+
+<img src="img/Website/sixth part 1.jpg"
+     style="position:absolute; right: -50px; top: 200px;">
+
+<img src="img/Website/sixth part 2.jpg"
+     style="position:absolute; left: 70px; bottom: 10px;">
+
+---
+![](img/Website/seventh part 1.jpg)
+![](img/Website/seventh part 2.jpg)
+If you click on Render, here is how the results would look like
+---
+To build plots and graphs, we will use R script. To add a new chuck on r script in our quarto document, we will hit the plus C green button and the top right
+
+![](img/Website/plots 1.jpg)
+
+Next, we will add our script to create our visualization 
+
+![](img/Website/script.jpg)
+And you will get an interactive plot that allows you look average body mass for penguins split by their species and sex
+---
+![](img/Website/eight.jpg)
+![](img/Website/nine.jpg)
+To create a new tab in your website, you want hit the the paper with the green plus, then select quarto document. After, you to give a title and make sure that is selected on HTML. 
+---
+![](img/Website/ten.jpg)
+The title is what the name of your new tab is going to be. After you want to save the file by clicking on the floppy disk and name it whatever you want. 
+![](img/Website/eleven.jpg)
+Lastly, you will add it into the quarto.yml, by putting it under about.qmd, and it will "- name of your file.qmd"
+
+---
+
+![](img/Website/thirteen part 1.jpg)
+
+To add you an image you can hit the image button. 
+
+![](img/Website/thirteen part 2.jpg)
+
+Then, you will hit browse and find the file you to upload to the your website
+
+![](img/Website/fourteen.jpg)
+The image should already be saved in the folder with the qmd script. 
+
+---
+![](img/Website/penguins.jpg)
+There you have your penguins!
+
+---
+The hardest part it is time to publish all of our work, so we can share our website with others. 
+
+You want to head over to quartopub.com and create an account. 
+
+Once, you have done that, you go to the terminal and type in "quarto publish quarto-pub"
+
+![](img/Website/publish 1.jpg)
+Next, it will ask for you login information that you used to sign up for quarto.
+
+Then, it will ask you if you are fine with the name you have originally choosen. 
+
+And your done!
+
+   
+   
+   
+   
+   
+   
      
 ---
 class: left, top, inverse
