@@ -28,6 +28,7 @@ library(tidyverse)
 library(babynames)
 library(fontawesome) # from github: https://github.com/rstudio/fontawesome
 library(DiagrammeR)
+library(xaringanExtra)
 ```
 
 
