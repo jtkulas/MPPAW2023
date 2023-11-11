@@ -742,7 +742,7 @@ class: center
 
 # .fancy[Breakout Rooms #2]
 
-![](https://media.giphy.com/media/sGmFIeXa2qbhcDAOQK/giphy.gif)
+![](https://media.giphy.com/media/VkMV9TldsPd28/giphy.gif)
 
 ---
 name: paramintro
@@ -765,7 +765,7 @@ class: center
 
 # .fancy[Breakout Rooms #3]
 
-![](https://media.giphy.com/media/sGmFIeXa2qbhcDAOQK/giphy.gif)
+![](https://media.giphy.com/media/kEEHnbO8rJf2mngDVA/giphy.gif)
 
 ---
 class: left, top, inverse
