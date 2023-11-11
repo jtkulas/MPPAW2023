@@ -714,11 +714,59 @@ And your done!
 
    
    
-   
-   
-   
-   
-     
+---
+class: center
+
+# .fancy[Breakout Rooms #1]
+
+![](https://media.giphy.com/media/sGmFIeXa2qbhcDAOQK/giphy.gif)
+
+---
+name: reportintro
+class: center, top, inverse
+
+# .fancy[.salt[Reports] with Quarto:]
+
+.pull-left[
+<img src="img/kpi-report.svg"
+     width="500" height="500"
+     style="position:absolute; left: 40px; bottom: 30px;">
+]
+
+.pull-right[
+![](img/mike.jpg)
+]   
+
+---
+class: center
+
+# .fancy[Breakout Rooms #2]
+
+![](https://media.giphy.com/media/sGmFIeXa2qbhcDAOQK/giphy.gif)
+
+---
+name: paramintro
+class: center, top, inverse
+
+# .fancy[.salt[Parameterized] reports with Quarto:]
+
+.pull-left[
+<img src="img/automation.svg"
+     width="450" height="450"
+     style="position:absolute; left: 80px; bottom: 50px;">
+]
+
+.pull-right[
+![](img/diego.jpg)
+] 
+
+---
+class: center
+
+# .fancy[Breakout Rooms #3]
+
+![](https://media.giphy.com/media/sGmFIeXa2qbhcDAOQK/giphy.gif)
+
 ---
 class: left, top, inverse
 
