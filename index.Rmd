@@ -42,7 +42,7 @@ xaringanExtra::use_scribble()          ## page load times much worse with this e
 
 layout: true
   
-<div class="my-footer"><span><a href="https://jtkulas.github.io/MPPAW2023/"</span>MPPAW November 14, 2023</span></a></div> 
+<div class="my-footer"><span><a href="https://github.com/jtkulas/MPPAW2023"</span>MPPAW November 14, 2023</span></a></div> 
 
 <!-- this adds the link footer to all slides, depends on my-footer class in css-->
 
@@ -128,6 +128,10 @@ style="position:absolute; left:437px; bottom:330px;">
 style="position:absolute; left:532px; bottom:347px;">
 
 ]
+
+???
+Power of replacement actually comes from Quarto (presented on later slides), with `r fa("r-project", fill="#4287f5")` merely being one current way to use Quarto
+
 --
 .pull-right[
 I have a 1 (free) platform <br>.rblue[(**to rule them all**)]<br>
@@ -258,6 +262,8 @@ style="position:absolute; left:65px; bottom:250px;">
 
 ???
 + Typical software program
+  + Bell labs and/or U of Aukland "product"
+  + 1993 first release
 + Free/open-source
 + Language and platform basically indistinguishable
 + Two primary operating environments (interactive **console** and static **script**)
@@ -281,7 +287,8 @@ class: center, middle, inverse
 style="position:absolute; left:10px; bottom:280px;">
 
 ???
-+ Commercial but also free
++ Commercial but also free - background here: [`r fa("youtube", fill="red")`](https://www.youtube.com/watch?v=u1Gzxg8Pd08)
++ "Founded" roughly 2009
 + Facilitates use of `r fa("r-project")`
 + Function maintained, form improved
 + 4 operating environments
@@ -404,7 +411,7 @@ class: left, top, inverse
 <img src="img/bluearrow.svg"
      width="150" height="250"     
      style="position:absolute; right: 550px; bottom: 200px;">
-     
+
 .pull-right[
 #.fancy[Posit:]
 
@@ -422,36 +429,57 @@ class: left, top, inverse
 
 ]
 
+???
+New branding announced by Hadley Wickham at R Studio 2022 conference - Hadley says Quarto is the new rMarkdown
+
 ---
 class: center, top, inverse
 
 
 <img src="img/rstudio.png"
      width="550" height="200"
-     style="position:absolute; left:100px; top:170px;">
+     style="position:absolute; left:100px; top:130px;">
      
 <img src="img/bluearrow.svg"
      width="250" height="250"     
-     style="position:absolute; right: 300px; top: 160px;">
+     style="position:absolute; right: 300px; top: 120px;">
      
 <img src="img/posit.svg"
      width="205" height="230"
-     style="position:absolute; right:100px; top:150px;">
+     style="position:absolute; right:100px; top:110px;">
 
 --
 
 <img src="img/rmd_ecosystem.png"
      width="530" height="300"
-     style="position:absolute; left:125px; bottom:20px;">
+     style="position:absolute; left:125px; bottom:60px;">
 
 <img src="img/bluearrow.svg"
      width="350" height="250"     
-     style="position:absolute; right: 300px; bottom: 30px;">
+     style="position:absolute; right: 300px; bottom: 70px;">
      
 <img src="img/quarto.png"
      width="205" height="230"
-     style="position:absolute; right:100px; bottom:50px;">
-     
+     style="position:absolute; right:100px; bottom:90px;">
+
+---
+name: timing
+class: left, top, inverse
+
+# .fancy[Timing (for us as a field):]
+
+.pull-left[
+.large[`r fa("r-project")`Studio is a [Public Benefit Corporation](https://www.law.cornell.edu/wex/public_benefit_corporation#:~:text=A%20public%20benefit%20corporation%20is,a%20responsible%20and%20sustainable%20manner.) with a mission to create free and open source software for *data science*, *scientific research*, and .kindabig[.rblue[*technical communication*]]
+]
+]
+
+.pull-right[
+![](https://media.giphy.com/media/mVTm52JQHDlD2/giphy.gif)
+]
+
+???
+Hadley and JJ referred to this as their "charter"
+
 ---
 name: tonight
 class: left, top, inverse
@@ -485,6 +513,78 @@ class: left, top, inverse
      style="position:absolute; right:120px; bottom:90px;">
 
 ---
+class: center, top, inverse
+
+# .fancy[Outline]:
+
+.pull-left[.salt[10-15 minute] <br>.large[overview]]
+
+.pull-right[.heat[10 minute] <br>.large[working session]]
+
+???
++ The breakout sessions will start at 10 minutes 
+    + We can extend if necessary/requested after the first 10 minute breakout
++ Slides will be pasted into the chat at the end of each overview section
+
+--
+
+<img src="img/web.png"
+     width="120" height="120"
+     style="position:absolute; left:250px; top:250px;">
+
+--
+
+<img src="img/bluearrow.svg"
+     width="250" height="200"     
+     style="position:absolute; right: 500px; top: 210px;">
+
+<img src="img/breakout.jpg"
+     width="300" height="300"     
+     style="position:absolute; right: 150px; bottom: 100px;">
+     
+--
+
+<img src="img/kpi-report.svg"
+     width="120" height="120"
+     style="position:absolute; left:250px; top:370px;">
+
+--
+
+<img src="img/bluearrow.svg"
+     width="250" height="200"     
+     style="position:absolute; right: 500px; top: 330px;">
+
+--
+
+<img src="img/automation.svg"
+     width="120" height="120"
+     style="position:absolute; left:250px; top:500px;">
+
+--
+
+<img src="img/bluearrow.svg"
+     width="250" height="200"     
+     style="position:absolute; right: 500px; top: 450px;">
+
+--
+
+<img src="img/chat.svg"
+     width="80" height="80"     
+     style="position:absolute; left: 380px; top: 230px;">
+     
+--
+
+<img src="img/chat.svg"
+     width="80" height="80"     
+     style="position:absolute; left: 380px; top: 350px;">
+
+--
+
+<img src="img/chat.svg"
+     width="80" height="80"     
+     style="position:absolute; left: 380px; top: 470px;">
+     
+---
 class: left, top, inverse
 
 ##.salt[.fancy[Additional resources:]]
@@ -515,26 +615,44 @@ class: left, top, inverse
 class: left, top, inverse
 
 # .salt[.fancy[Questions???]]
-## .fancy[Reach out to us at...]
+### .fancy[Connect with us at...]
+
+<img class="circle" src="img/mike.jpg" alt="Mike" width="200px" 
+style="position:absolute; left: 360px; top: 280px;">
+
+<img class="circle" src="img/casey.jpg" alt="Casey" width="200px"
+style="position:absolute; left: 360px; top: 490px;">  
+
+<img class="circle" src="img/diego.jpg" alt="Diego" width="200px"
+style="position:absolute; right: 100px; top: 280px;">  
+
+<img class="circle" src="img/kulas.jpg" alt="Kulas" width="200px"
+style="position:absolute; right: 100px; top: 490px;"> 
 
 .pull-left[
-<img class="circle" src="img/mike.jpg" alt="Mike" width="100px"/>  
+[`r fa(name = "envelope", fill="#B4B4B4")` defabiism1@montclair.edu](mailto:defabiism1@montclair.edu) <br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
 
-Mike <br>
-
-<img class="circle" src="img/casey.jpg" alt="Casey" width="100px"/>  
-
-Casey
+[`r fa(name = "envelope", fill="#B4B4B4")` caseyosorio@gmail.com](mailto:caseyosorio@gmail.com)  
+[`r fa("linkedin", fill="#0077b5")` @Casey Osorio-Duffoo](https://www.linkedin.com/in/casey-osorio-duffoo/)
 ]
 
 .pull-right[
-<img class="circle" src="img/diego.jpg" alt="Diego" width="100px"/>
-Diego <br>
+[`r fa(name = "envelope", fill="#B4B4B4")` figueirasd1@montclair.edu](mailto:figueirasd1@montclair.edu) <br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
 
-<img class="circle" src="img/kulas.jpg" alt="Kulas" width="100px"/>  
-
-[`r fa(name = "paper-plane")` jtkulas@ergreports.com](mailto:jtkulas@ergreports.com)  
+[`r fa(name = "envelope", fill="#B4B4B4")` jtkulas@ergreports.com](mailto:jtkulas@ergreports.com)  
 [`r fa(name = "x-twitter")` @jtkulas](http://twitter.com/jtkulas)  
-[`r fa(name = "youtube")` Forensic Psychometrics](https://www.youtube.com/@forensicpsychometrics8300)
+[`r fa(name = "youtube", fill="red")` Forensic Psychometrics](https://www.youtube.com/@forensicpsychometrics8300)
 ]
 

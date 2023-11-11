@@ -121,6 +121,11 @@ h1, h2, h3 {
   font-size: 300%;
 }
 
+.kindabig { 
+  font-size: 150%;
+  font-weight: bold;
+}
+
 .spssred {
   color: #e10000;
 }

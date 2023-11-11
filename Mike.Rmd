@@ -32,36 +32,75 @@ library(DiagrammeR)
 name: context
 class: center, middle, inverse
 
-# .fancy[The (much too) common perspective on `r fa("r-project", fill="#4287f5")`:]
+# .fancy[Creating A Template Business Report Using `r fa("r-project", fill="#4287f5")`:]
+
+
+<img src="img/kpi-report.svg"
+     width="250" height="270"
+     style="position:absolute; top:60%; left:40%">
+
+  
 
 ???
 Presentation notes here
 
 --
 .pull-left[
-I have a statistical program <br>.spssred[(**I currently use**)]
+(1) Choosing your desired .spssred[**template**] and .spssred[**doc type**]
 ]
 --
 .pull-right[
-I have a statistical program <br>.rblue[(**I'm gonna switch to**)]
+(2) Adding .rblue[**graphs**], .rblue[**tables**], and .rblue[**descriptives**]
 ]
 
---
-
-![](img/spsstor.PNG)
-
 ---
-name: tonight
+name: templates
 class: left, top, inverse
 
-#.fancy[.salt[Tonight:]]
+#.fancy[.salt[Templates]]
 
-##.fancy[We'll be using both the "legacy" .rblue[rmarkdown] packages as well as the "new" .rblue[Quarto] platform to generate:]
+##.fancy[Many templates can be used:]
+
+--
+img1
+--
+
+--
+img2
+--
+
+--
+img3
+--
+
+##.fancy[All you need to do is find them!]
+
+---
+name: formats
+class: left, top, inverse
+
+#.fancy[.salt[Formats]]
+
+##.fancy[Three main output types to choose from:]
 
 --
 
-? Whatever we decide to present goes here (put in images of website, report, etc)
+<img src="img/html_icon.png"
+     width="250" height="270"
+     style="position:absolute; left:10%">
 
+--
+
+<img src="img/pdf_icon.png"
+     width="250" height="270"
+     style="position:absolute; left:40%">
+
+--
+
+<img src="img/word_icon.png"
+     width="250" height="270"
+     style="position:absolute; left:70%">
+--
 ---
 
 class: left, top, inverse
@@ -86,7 +125,7 @@ Diego <br>
 <img class="circle" src="img/kulas.jpg" alt="Kulas" width="100px"/>  
 
 [`r fa(name = "paper-plane")` jtkulas@ergreports.com](mailto:jtkulas@ergreports.com)  
-[`r fa(name = "x-twitter")` @jtkulas](http://twitter.com/jtkulas)  
+[`r fa(name = "twitter")` @jtkulas](http://twitter.com/jtkulas)  
 [`r fa(name = "youtube")` Forensic Psychometrics](https://www.youtube.com/@forensicpsychometrics8300)
 ]
 

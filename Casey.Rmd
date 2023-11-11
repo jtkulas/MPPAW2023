@@ -12,7 +12,6 @@ output:
       highlightLines: true
       countIncrementalSlides: false
       ratio: "16:9"
-      beforeInit: "https://platform.twitter.com/widgets.js"
     seal: false 
     includes:
       in_header: header.html
@@ -34,17 +33,10 @@ class: center, middle, inverse
 
 # .fancy[The (much too) common perspective on `r fa("r-project", fill="#4287f5")`:]
 
+![](img/Website/First.jpg)
+
 ???
 Presentation notes here
-
---
-.pull-left[
-I have a statistical program <br>.spssred[(**I currently use**)]
-]
---
-.pull-right[
-I have a statistical program <br>.rblue[(**I'm gonna switch to**)]
-]
 
 --
 
