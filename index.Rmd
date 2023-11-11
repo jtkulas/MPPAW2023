@@ -487,7 +487,7 @@ class: left, top, inverse
 
 #.fancy[.salt[Tonight:]]
 
-##.fancy[We'll be using both the "legacy" .rblue[rmarkdown] packages as well as the "new" .rblue[Quarto] platform to generate:]
+##.fancy[We'll be using <s>both the "legacy" .rblue[rmarkdown] packages</s> as well as the "new" .rblue[Quarto] platform to generate:]
 
 ???
 + A template business report
@@ -800,10 +800,10 @@ class: left, top, inverse
 # .salt[.fancy[Questions???]]
 ### .fancy[Connect with us at...]
 
-<img class="circle" src="img/mike.jpg" alt="Mike" width="200px" 
+<img class="circle" src="img/casey.jpg" alt="Mike" width="200px" 
 style="position:absolute; left: 360px; top: 280px;">
 
-<img class="circle" src="img/casey.jpg" alt="Casey" width="200px"
+<img class="circle" src="img/mike.jpg" alt="Casey" width="200px"
 style="position:absolute; left: 360px; top: 490px;">  
 
 <img class="circle" src="img/diego.jpg" alt="Diego" width="200px"
@@ -812,8 +812,9 @@ style="position:absolute; right: 100px; top: 280px;">
 <img class="circle" src="img/kulas.jpg" alt="Kulas" width="200px"
 style="position:absolute; right: 100px; top: 490px;"> 
 
-.pull-left[
-[`r fa(name = "envelope", fill="#B4B4B4")` defabiism1@montclair.edu](mailto:defabiism1@montclair.edu) <br>
+.pull-left[`r fa(name = "envelope", fill="#B4B4B4")` [caseyosorio@gmail.com](mailto:caseyosorio@gmail.com)  
+[`r fa("linkedin", fill="#0077b5")` @Casey Osorio-Duffoo](https://www.linkedin.com/in/casey-osorio-duffoo/)
+<br>
 <br>
 <br>
 <br>
@@ -821,8 +822,7 @@ style="position:absolute; right: 100px; top: 490px;">
 <br>
 <br>
 
-[`r fa(name = "envelope", fill="#B4B4B4")` caseyosorio@gmail.com](mailto:caseyosorio@gmail.com)  
-[`r fa("linkedin", fill="#0077b5")` @Casey Osorio-Duffoo](https://www.linkedin.com/in/casey-osorio-duffoo/)
+[`r fa(name = "envelope", fill="#B4B4B4")` defabiism1@montclair.edu](mailto:defabiism1@montclair.edu)
 ]
 
 .pull-right[
