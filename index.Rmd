@@ -615,26 +615,44 @@ class: left, top, inverse
 class: left, top, inverse
 
 # .salt[.fancy[Questions???]]
-## .fancy[Reach out to us at...]
+### .fancy[Connect with us at...]
+
+<img class="circle" src="img/mike.jpg" alt="Mike" width="200px" 
+style="position:absolute; left: 360px; top: 280px;">
+
+<img class="circle" src="img/casey.jpg" alt="Casey" width="200px"
+style="position:absolute; left: 360px; top: 490px;">  
+
+<img class="circle" src="img/diego.jpg" alt="Diego" width="200px"
+style="position:absolute; right: 100px; top: 280px;">  
+
+<img class="circle" src="img/kulas.jpg" alt="Kulas" width="200px"
+style="position:absolute; right: 100px; top: 490px;"> 
 
 .pull-left[
-<img class="circle" src="img/mike.jpg" alt="Mike" width="100px"/>  
+[`r fa(name = "envelope", fill="#B4B4B4")` defabiism1@montclair.edu](mailto:defabiism1@montclair.edu) <br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
 
-Mike <br>
-
-<img class="circle" src="img/casey.jpg" alt="Casey" width="100px"/>  
-
-Casey
+[`r fa(name = "envelope", fill="#B4B4B4")` caseyosorio@gmail.com](mailto:caseyosorio@gmail.com)  
+[`r fa("linkedin", fill="#0077b5")` @Casey Osorio-Duffoo](https://www.linkedin.com/in/casey-osorio-duffoo/)
 ]
 
 .pull-right[
-<img class="circle" src="img/diego.jpg" alt="Diego" width="100px"/>
-Diego <br>
+[`r fa(name = "envelope", fill="#B4B4B4")` figueirasd1@montclair.edu](mailto:figueirasd1@montclair.edu) <br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
 
-<img class="circle" src="img/kulas.jpg" alt="Kulas" width="100px"/>  
-
-[`r fa(name = "paper-plane")` jtkulas@ergreports.com](mailto:jtkulas@ergreports.com)  
+[`r fa(name = "envelope", fill="#B4B4B4")` jtkulas@ergreports.com](mailto:jtkulas@ergreports.com)  
 [`r fa(name = "x-twitter")` @jtkulas](http://twitter.com/jtkulas)  
-[`r fa(name = "youtube")` Forensic Psychometrics](https://www.youtube.com/@forensicpsychometrics8300)
+[`r fa(name = "youtube", fill="red")` Forensic Psychometrics](https://www.youtube.com/@forensicpsychometrics8300)
 ]
 
