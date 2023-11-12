@@ -604,13 +604,16 @@ class: center, top, inverse
 ---
 class: left, top, inverse
 
-# Slide describing scope:
+# Scope of website tutorial:
 
 .pull-left[.large[
-1. basic website
-2. local first
-3. published second
-4. *you* can take and customize as desired]
+1. Basic (simple) website
+  + Pictures
+  + Data visualization
+  + New pages 
+2. Local first
+3. [Publish](https://quartopub.com/) second
+4. *You* can then take and customize as desired]
 ]
 
 <img src="img/focus.jpg" width="400" height="400"
@@ -629,7 +632,7 @@ class: left, top, inverse
 2. Select:
   + `New Directory -> Quarto Website`
 3. Create a name for your `website` (in the black box)
-4. Choose a name for your `New Directory` (blue box)
+4. Choose a name for your `New Project Directory` (blue box)
 ]
 ]
 
@@ -680,6 +683,42 @@ class: left, top, inverse
 ---
 class: left, top, inverse
 
+# Adding images
+
+.pull-left[.large[To add you an image you can:
+1. hit the `image` icon, then
+2. you will hit browse and find the file you want to upload to your website]]
+
+<img src="img/Website/thirteen part 1.jpg"
+     style="position:absolute; left: 620px; top: 100px;">
+     
+???
+The image should already be saved in the folder with the `.qmd` script. 
+
+--
+
+<img src="img/Website/thirteen part 2.jpg"
+     style="position:absolute; right: 50px; top: 180px;">
+
+--
+
+<img src="img/Website/fourteen.jpg"
+     style="position:absolute; left: 600px; top: 340px;">
+     
+
+---
+# There you have your penguins!
+
+```{r echo=FALSE, out.width="70%", fig.align="center"}
+knitr::include_graphics("img/Website/penguins.jpg")
+```
+
+
+---
+class: left, top, inverse
+
+# Adding data visuals:
+
 .large[To build plots and graphs, we will use `R` script. To add a new chunk, we will hit the `plus C` green button:]
 
 ![](img/Website/plots 1.jpg)
@@ -690,7 +729,7 @@ class: left, top, inverse
 
 --
 
-.large[Next, we will add the `R` commands that will create our visualization:] <br>\*Note that you will be *provided* `R` commands within the breakout sessions (if you'd like)
+.large[Next, we will add the `R` commands that will create our visualization:]<br> \* You will be *provided* `R` commands within the breakout sessions (if you'd like) 
 
 ![](img/Website/script.jpg)
 ---
@@ -727,7 +766,7 @@ Run the script and you will get an interactive plot that allows you look average
 ---
 class: left, top, inverse
 
-# Adding pages (Part I)
+# Adding new pages (Part I)
 
 .pull-left[.large[
 To create a new tab in your website, you want to: 
@@ -738,7 +777,7 @@ Next, give your page a title and make sure that is selected on `HTML`]
 ]
 
 <img src="img/Website/eight.jpg"
-     style="position:absolute; right: 250px; top: 10px;">
+     style="position:absolute; right: 100px; top: 10px;">
 
 --
 
@@ -748,58 +787,58 @@ Next, give your page a title and make sure that is selected on `HTML`]
 ---
 class: left, top, inverse
 
-# Adding pages (Part II)
+# Adding new pages (Part II)
+
+.large[
+The title is what the name of your new tab is going to be. After you want to save the file by clicking on the `r fa("floppy-disk", fill="#618DCF")` and name it whatever you want. 
+]
+
+<img src="img/Website/ten.jpg"
+     style="position:absolute; left: 100px; top: 260px;">
+
+---
+class: left, top, inverse
+
+# Adding new pages (Part III)
+
+.pull-left[.large[Lastly, you will add your new `.qmd` file into the `quarto.yml`, by putting it under `about.qmd`
+  + make sure to be consistent: `"name of your new file".qmd`]
+]
+
+<img src="img/Website/eleven.jpg"
+     style="position:absolute; right: 50px; top: 140px;">
+     
+---
+class: left, top, inverse
+
+# Publishing - sharing your website 
 
 .pull-left[.large[
-The title is what the name of your new tab is going to be. After you want to save the file by clicking on the `r fa("floppy-disk", fill="#618DCF")` and name it whatever you want. 
+1. head over to [quartopub.com](https://quartopub.com/) and create an account
+2. access the `terminal` and type in "**quarto publish quarto-pub**"
+  + use the login information that you used to sign up for quarto
+  + last chance to change the website name you have originally chosen
+  
+...and you're done!!
 ]]
 
-![](img/Website/ten.jpg)
 
-![](img/Website/eleven.jpg)
-Lastly, you will add it into the quarto.yml, by putting it under about.qmd, and it will "- name of your file.qmd"
-
----
-
-![](img/Website/thirteen part 1.jpg)
-
-To add you an image you can hit the image button. 
-
-![](img/Website/thirteen part 2.jpg)
-
-Then, you will hit browse and find the file you to upload to the your website
-
-![](img/Website/fourteen.jpg)
-The image should already be saved in the folder with the qmd script. 
-
----
-![](img/Website/penguins.jpg)
-There you have your penguins!
-
----
-The hardest part it is time to publish all of our work, so we can share our website with others. 
-
-You want to head over to quartopub.com and create an account. 
-
-Once, you have done that, you go to the terminal and type in "quarto publish quarto-pub"
-
-![](img/Website/publish 1.jpg)
-Next, it will ask for you login information that you used to sign up for quarto.
-
-Then, it will ask you if you are fine with the name you have originally choosen. 
-
-And your done!
-
+<img src="img/Website/publish 1.jpg"
+     style="position:absolute; left: 650px; bottom: 200px;">
+     
 ---
 class: left
 
 # Putting all this together...
-## ...let's do a `live` walk-through
+## ...I'll do a quick `live` walk-through
 
 .large[
 1. Create local project & files
 2. Publish on [quartopub.com](https://quartopub.com/)
 ]
+
+<img src="img/firewalking.jpg" width="600" height="300"
+     style="position:absolute; left: 550px; bottom: 100px;">
 
 ---
 class: center
