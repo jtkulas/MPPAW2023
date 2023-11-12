@@ -690,18 +690,72 @@ class: left, top, inverse
 
 --
 
-.large[Next, we will add the `R` commands that will create our visualization:]
+.large[Next, we will add the `R` commands that will create our visualization:] <br>\*Note that you will be *provided* `R` commands within the breakout sessions (if you'd like)
 
 ![](img/Website/script.jpg)
-And you will get an interactive plot that allows you look average body mass for penguins split by their species and sex
+---
+class: left, top, inverse
+
+# A little closer look at that chunk...
+
+.pull-left[
+```{r}
+
+library(palmerpenguins)
+library(ggplot2)
+library(plotly)
+
+p <- plot_ly(data = penguins, 
+             x = ~bill_length_mm, 
+             y = ~bill_depth_mm, 
+             color = ~species, 
+             size = ~body_mass_g, 
+             text = ~island, alpha=.7)
+
+```
+]
+
+.pull-right[
+```{r, echo=FALSE}
+p
+```
+]
+
+???
+Run the script and you will get an interactive plot that allows you look average body mass for penguins split by their *species* and *sex*
 
 ---
-![](img/Website/eight.jpg)
-![](img/Website/nine.jpg)
-To create a new tab in your website, you want hit the the paper with the green plus, then select quarto document. After, you to give a title and make sure that is selected on HTML. 
+class: left, top, inverse
+
+# Adding pages (Part I)
+
+.pull-left[.large[
+To create a new tab in your website, you want to: 
+1. hit the the paper with the green plus, then 
+2. select quarto document  
+
+Next, give your page a title and make sure that is selected on `HTML`] 
+]
+
+<img src="img/Website/eight.jpg"
+     style="position:absolute; right: 250px; top: 10px;">
+
+--
+
+<img src="img/Website/nine.jpg"
+     style="position:absolute; right: 60px; top: 160px;">
+
 ---
+class: left, top, inverse
+
+# Adding pages (Part II)
+
+.pull-left[.large[
+The title is what the name of your new tab is going to be. After you want to save the file by clicking on the `r fa("floppy-disk", fill="#618DCF")` and name it whatever you want. 
+]]
+
 ![](img/Website/ten.jpg)
-The title is what the name of your new tab is going to be. After you want to save the file by clicking on the floppy disk and name it whatever you want. 
+
 ![](img/Website/eleven.jpg)
 Lastly, you will add it into the quarto.yml, by putting it under about.qmd, and it will "- name of your file.qmd"
 
@@ -736,8 +790,17 @@ Then, it will ask you if you are fine with the name you have originally choosen.
 
 And your done!
 
-   
-   
+---
+class: left
+
+# Putting all this together...
+## ...let's do a `live` walk-through
+
+.large[
+1. Create local project & files
+2. Publish on [quartopub.com](https://quartopub.com/)
+]
+
 ---
 class: center
 
