@@ -487,7 +487,7 @@ class: left, top, inverse
 
 #.fancy[.salt[Tonight:]]
 
-##.fancy[We'll be using <s>both the "legacy" .rblue[rmarkdown] packages</s> as well as the "new" .rblue[Quarto] platform to generate:]
+##.fancy[We'll be using <s>both the "legacy" .rblue[rmarkdown] packages as well as</s> the "new" .rblue[Quarto] platform to generate:]
 
 ???
 + A template business report
@@ -602,23 +602,26 @@ class: center, top, inverse
 ]
 
 ---
-class: center, top, inverse
+class: left, top, inverse
 
 # Slide describing scope:
 
-.pull-left[
+.pull-left[.large[
 1. basic website
 2. local first
 3. published second
-4. *you* can take and customize as desired
+4. *you* can take and customize as desired]
 ]
 
+<img src="img/focus.jpg" width="400" height="400"
+     style="position:absolute; right: 150px; top: 170px;">
+     
 ---
 
 name: Building Websites in Quatro
 class: left, top, inverse
 
-## Getting started:
+# Getting started:
 
 .pull-left[.large[
 1. From the file menu, click:
@@ -650,7 +653,7 @@ class: left, top, inverse
 
 # The result:
 
-.large[You should have two files:]
+.large[You should now have two default files:]
 
 <img src="img/Website/sixth part 1.jpg"
      style="position:absolute; right: -50px; top: 200px;">
@@ -659,18 +662,39 @@ class: left, top, inverse
      style="position:absolute; left: 70px; bottom: 10px;">
 
 ---
-![](img/Website/seventh part 1.jpg)
-![](img/Website/seventh part 2.jpg)
-If you click on Render, here is how the results would look like
+
+class: left, top, inverse
+
+# Activate!
+
+.large[Clicking `Render` gives you an html page...]
+
+<img src="img/Website/seventh part 1.jpg"
+     style="position:absolute; left: 70px; top: 200px;">
+
+--
+
+<img src="img/Website/seventh part 2.jpg"
+     style="position:absolute; left: 200px; top: 300px;">
+
 ---
-To build plots and graphs, we will use R script. To add a new chuck on r script in our quarto document, we will hit the plus C green button and the top right
+class: left, top, inverse
+
+.large[To build plots and graphs, we will use `R` script. To add a new chunk, we will hit the `plus C` green button:]
 
 ![](img/Website/plots 1.jpg)
 
-Next, we will add our script to create our visualization 
+???
++ `plus c` located in the upper-right of the menu bar
++ describe what a `chunk` is
+
+--
+
+.large[Next, we will add the `R` commands that will create our visualization:]
 
 ![](img/Website/script.jpg)
 And you will get an interactive plot that allows you look average body mass for penguins split by their species and sex
+
 ---
 ![](img/Website/eight.jpg)
 ![](img/Website/nine.jpg)
