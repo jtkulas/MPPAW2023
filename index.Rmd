@@ -32,7 +32,7 @@ library(xaringanExtra)
 ```
 
 
-```{r xaringan-scribble, echo=FALSE}
+```{r xaringan-scribble, echo=FALSE, eval=FALSE}
 
 ## https://pkg.garrickadenbuie.com/xaringanExtra/#/scribble
 
