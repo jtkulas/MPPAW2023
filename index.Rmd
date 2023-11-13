@@ -262,13 +262,13 @@ class: center, middle, inverse
 style="position:absolute; left:65px; bottom:250px;">
 
 ???
-+ Typical software program
++ Language and platform basically indistinguishable
++ Application typical software program
   + Bell labs and/or U of Aukland "product"
   + 1993 first release
 + Free/open-source
-+ Language and platform basically indistinguishable
 + Two primary operating environments (interactive **console** and static **script**)
-+ Function over form
++ Philosophy: function over form
 
 --
 
@@ -288,11 +288,11 @@ class: center, middle, inverse
 style="position:absolute; left:10px; bottom:280px;">
 
 ???
-+ Commercial but also free - background here: [`r fa("youtube", fill="red")`](https://www.youtube.com/watch?v=u1Gzxg8Pd08)
++ Commercial application (but also free) - background here: [`r fa("youtube", fill="red")`](https://www.youtube.com/watch?v=u1Gzxg8Pd08)
 + "Founded" roughly 2009
 + Facilitates use of `r fa("r-project")`
 + Function maintained, form improved
-+ 4 operating environments
+  + 4 operating environments
 + Blurred boundaries (we'll refer to `r fa("r-project")` even if we're technically operating within `r fa("r-project")` Studio)  
 + If anyone hasn't installed `r fa("r-project")` or `r fa("r-project")` Studio, **send a private chat to Roger** - he will let us know and we'll help in breakout rooms during intro spiel 
 
@@ -313,6 +313,10 @@ class: center, top, inverse
 .pull-left[
 ## .fancy[[`r fa("r-project", fill="#4287f5")` Packages](https://support.posit.co/hc/en-us/articles/201057987-Quick-list-of-useful-R-packages):]
 ]
+
+???
++ data visualization
++ data manipulation
 
 --
 
@@ -337,12 +341,6 @@ class: center, top, inverse
 .pull-right[
 ## .fancy[`r fa("r-project", fill="#4287f5")` "Authoring" Packages:]
 ]  
-
-???
-+ $\LaTeX$ & html (dates unknown)
-+ literate programming (1984; code + written text)
-  + exploding recently - thanks to RStudio & Jupiter Notebooks
-+ markdown (2004)
 
 --
 
@@ -372,7 +370,13 @@ class: left, top, inverse
 <img src="img/rmd_ecosystem.png"
      width="900" height="500"
      style="position:absolute; right:350px; bottom:30px;">
-     
+
+???
++ $\LaTeX$ & html (dates unknown)
++ literate programming (1984; code + written text)
+  + exploding recently - thanks to RStudio & Jupiter Notebooks
++ markdown (2004)
+
 --
      
 <img src="img/bracket.png"
@@ -382,10 +386,6 @@ class: left, top, inverse
 <img src="img/quarto.png"
      width="205" height="230"
      style="position:absolute; right:100px; bottom:170px;">  
-
-???
-
-Quarto actually an independent platform. There is a Quarto `r fa("r-project", fill="#4287f5")` package, but it mostly provides shortcuts for control-line commands. Deep explanation of Quarto with development team available here: [`r fa("youtube", fill="red")`](https://www.youtube.com/watch?v=p5zrqrFqCTo)
 
 ---
 name: RStudio
@@ -463,6 +463,9 @@ class: center, top, inverse
      width="205" height="230"
      style="position:absolute; right:100px; bottom:90px;">
 
+???
+Quarto actually an independent platform. There is a Quarto `r fa("r-project", fill="#4287f5")` package, but it mostly provides shortcuts for control-line commands. Deep explanation of Quarto with development team available here: [`r fa("youtube", fill="red")`](https://www.youtube.com/watch?v=p5zrqrFqCTo)
+
 ---
 name: timing
 class: left, top, inverse
@@ -492,8 +495,7 @@ class: left, top, inverse
 ???
 + A template business report
 + A website
-+ An automation of our business report
-  + Go from simple to complex
++ A parameterization of the business report
 
 --
 
@@ -608,6 +610,10 @@ class: inverse
 <img src="https://media.giphy.com/media/0RiL76Qdbg7b4maVY6/giphy.gif" 
      width="250" height="250"
      style="position:absolute; left: 130px; bottom: 50px;">
+
+???
++ `palmerpenguin` package and dataset currently very popular as fun demo dataset
++ supplanting `mtcars` and `iris` which were historically favored
 
 ---
 name: webintro
