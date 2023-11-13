@@ -586,8 +586,9 @@ class: center, top, inverse
      style="position:absolute; left: 380px; top: 470px;">
 
 ---
+class: inverse
 
-# .fancy[Prepare for Penguin Onslaught!!!]
+# .fancy[Prepare for Penguin Onslaught!!! `r emo::ji("penguin")`]
 
 <img src="https://media.giphy.com/media/ayr9w6uAySAco/giphy.gif" 
          style="position:absolute; left: 350px; bottom: 200px;">
