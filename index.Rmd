@@ -1105,7 +1105,8 @@ style="position:absolute; right: 100px; top: 490px;">
 
 .pull-right[
 [`r fa(name = "envelope", fill="#B4B4B4")` figueirasd1@montclair.edu](mailto:figueirasd1@montclair.edu) <br>
-<br>
+[`r fa("linkedin", fill="#0077b5")` @Diego Figueiras](https://www.linkedin.com/in/diego-figueiras-m-a-012644123/)
+
 <br>
 <br>
 <br>
