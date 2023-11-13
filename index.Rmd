@@ -864,6 +864,133 @@ class: center, top, inverse
 ]   
 
 ---
+class: left, top, inverse
+
+# Scope of reports tutorial:
+
+.pull-left[.large[
+1. Choosing your desired report
+  + .spssred[**template**] and 
+  + .spssred[**doc type**]
+2. Adding
+  + .rblue[**graphs**]
+  + .rblue[**tables**], and 
+  + .rblue[**descriptives**]
+3. *You* can then take and apply your own data as desired]
+]
+
+<img src="img/focus.jpg" width="400" height="400"
+     style="position:absolute; right: 150px; top: 170px;">
+     
+
+---
+name: templates
+class: left, top, inverse
+
+#.fancy[.salt[Templates]]
+
+##.fancy[Many templates can be used:]
+
+--
+<img src="img/template_1.png"
+     width="250" height="270"
+     style="position:absolute; left:10%">
+--
+
+<img src="img/template_2.png"
+     width="250" height="270"
+     style="position:absolute; left:40%">
+--
+
+<img src="img/template_3.png"
+     width="250" height="270"
+     style="position:absolute; left:70%">
+--
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+##.fancy[All you need to do is find them!]
+
+---
+name: formats
+class: left, top, inverse
+
+#.fancy[.salt[Formats]]
+
+##.fancy[Three main output types to choose from:]
+
+--
+
+<img src="img/html_icon.png"
+     width="250" height="270"
+     style="position:absolute; left:10%">
+
+--
+
+<img src="img/pdf_icon.png"
+     width="250" height="270"
+     style="position:absolute; left:40%">
+
+--
+
+<img src="img/word_icon.png"
+     width="250" height="270"
+     style="position:absolute; left:70%">
+
+
+---
+name: formats
+class: left, top, inverse
+
+#.fancy[.salt[Formats]]
+
+##.fancy[Choosing a format is easy!]
+
+--
+
+<img src="img/word_icon.png"
+     width="250" height="270"
+     style="position:absolute; left:10%">
+     
+<img src="img/choose_format_word.png"
+     width=60%
+     style="position:absolute; left:40%">
+--
+
+<img src="img/pdf_icon.png"
+     width="250" height="270"
+     style="position:absolute; left:10%">
+     
+<img src="img/choose_format_pdf.png"
+     width=60%
+     style="position:absolute; left:40%">
+
+--
+
+<img src="img/html_icon.png"
+     width="250" height="270"
+     style="position:absolute; left:10%">
+     
+<img src="img/choose_format_html.png"
+     width=60%
+     style="position:absolute; left:40%">
+     
+---
+
+name: formats
+class: left, top, inverse
+
+###.fancy[.salt[Here's an example!]]
+
+---
 class: center
 
 # .fancy[Breakout Rooms #2]
