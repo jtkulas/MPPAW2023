@@ -585,6 +585,28 @@ class: center, top, inverse
      width="80" height="80"     
      style="position:absolute; left: 380px; top: 470px;">
 
+---
+
+# .fancy[Prepare for Penguin Onslaught!!!]
+
+<img src="https://media.giphy.com/media/ayr9w6uAySAco/giphy.gif" 
+         style="position:absolute; left: 350px; bottom: 200px;">
+         
+<img src="https://media.giphy.com/media/6To7mnTymkfXlDEZjn/giphy.gif" 
+     width="250" height="250"
+     style="position:absolute; left: 40px; top: 150px;">
+
+<img src="https://media.giphy.com/media/yAsYwHDxD4qPVZRqAX/giphy.gif" 
+     width="300" height="300"
+     style="position:absolute; right: 30px; bottom: 50px;">
+
+<img src="https://media.giphy.com/media/UHZMvURcKk8IU/giphy.gif" 
+     width="350" height="250"
+     style="position:absolute; right: 30px; top: 50px;">
+     
+<img src="https://media.giphy.com/media/0RiL76Qdbg7b4maVY6/giphy.gif" 
+     width="250" height="250"
+     style="position:absolute; left: 130px; bottom: 40px;">
 
 ---
 name: webintro
@@ -905,7 +927,9 @@ class: left, top, inverse
 <img src="img/template_3.png"
      width="250" height="270"
      style="position:absolute; left:70%">
+
 --
+
 <br>
 <br>
 <br>
