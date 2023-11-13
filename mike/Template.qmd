@@ -1,5 +1,5 @@
 ---
-format: docx
+format: html
 title: "Title of Document"
 ---
 
@@ -92,7 +92,11 @@ Tab 2
 
 </button>
 
-<button class="tablinks" onclick="openTab(event, 'Tab3')">Tab 3</button>
+<button class="tablinks" onclick="openTab(event, &#39;Tab3&#39;)">
+
+Tab 3
+
+</button>
 :::
 
 ::: {#Tab1 .tabcontent}

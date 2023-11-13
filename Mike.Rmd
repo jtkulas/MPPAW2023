@@ -62,15 +62,19 @@ class: left, top, inverse
 ##.fancy[Many templates can be used:]
 
 --
-img1
+<img src="img/template_1.png"
+     width="250" height="270"
+     style="position:absolute; left:10%">
 --
 
---
-img2
+<img src="img/template_2.png"
+     width="250" height="270"
+     style="position:absolute; left:40%">
 --
 
---
-img3
+<img src="img/template_3.png"
+     width="250" height="270"
+     style="position:absolute; left:70%">
 --
 
 ##.fancy[All you need to do is find them!]
@@ -100,7 +104,52 @@ class: left, top, inverse
 <img src="img/word_icon.png"
      width="250" height="270"
      style="position:absolute; left:70%">
+
+
+---
+name: formats
+class: left, top, inverse
+
+#.fancy[.salt[Formats]]
+
+##.fancy[Choosing a format is easy!]
+
 --
+
+<img src="img/word_icon.png"
+     width="250" height="270"
+     style="position:absolute; left:10%">
+     
+<img src="img/choose_format_word.png"
+     width=60%
+     style="position:absolute; left:40%">
+--
+
+<img src="img/pdf_icon.png"
+     width="250" height="270"
+     style="position:absolute; left:10%">
+     
+<img src="img/choose_format_pdf.png"
+     width=60%
+     style="position:absolute; left:40%">
+
+--
+
+<img src="img/html_icon.png"
+     width="250" height="270"
+     style="position:absolute; left:10%">
+     
+<img src="img/choose_format_html.png"
+     width=60%
+     style="position:absolute; left:40%">
+     
+---
+
+name: formats
+class: left, top, inverse
+
+###.fancy[.salt[Here's an example!]]
+
 ---
 
 class: left, top, inverse
