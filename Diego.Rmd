@@ -32,35 +32,152 @@ library(DiagrammeR)
 name: context
 class: center, middle, inverse
 
-# .fancy[The (much too) common perspective on `r fa("r-project", fill="#4287f5")`:]
+# .fancy[Example #1: automating parameters in your report `r fa("r-project", fill="#4287f5")`]
 
 ???
 Presentation notes here
 
 --
-.pull-left[
-I have a statistical program <br>.spssred[(**I currently use**)]
-]
---
-.pull-right[
-I have a statistical program <br>.rblue[(**I'm gonna switch to**)]
-]
+# .fancy[Let's say you have a very elaborate Quarto script…]
+<img src="img/slide1_1.png"
+     width="250" height="270"
+     style="position:absolute; left:30%">
+     
+<img src="img/slide1_2.png"
+     width="250" height="270"
+     style="position:absolute; left:50%">
+     
 
---
-
-![](img/spsstor.PNG)
 
 ---
-name: tonight
+name: slide2
 class: left, top, inverse
 
-#.fancy[.salt[Tonight:]]
+#.fancy[… and you want to change the data and/or parameters used to generate the plots, graphs, tables and text in your reports without having to edit your script or write new code]
 
-##.fancy[We'll be using both the "legacy" .rblue[rmarkdown] packages as well as the "new" .rblue[Quarto] platform to generate:]
+<img src="img/slide2_1.jpg"
+     width="350" height="270"
+     style="position:absolute; left:50%">
 
 --
 
-? Whatever we decide to present goes here (put in images of website, report, etc)
+---
+name: slide3
+class: left, top, inverse
+
+#.fancy[Example #1]
+
+Like this:
+
+<img src="img/slide3_1.png"
+     width="250" height="270"
+     style="position:absolute; left:10%">
+     
+     
+<img src="img/slide3_2.png"
+     width="250" height="270"
+     style="position:absolute; left:40%">
+     
+     
+<img src="img/slide3_3.png"
+     width="250" height="270"
+     style="position:absolute; left:70%">
+
+--
+
+
+---
+name: slide4
+class: left, top, inverse
+
+#.fancy[Use parameter automation!]
+
+Like this:
+
+<img src="img/slide4_1.png"
+     width="800" height="350"
+     style="position:absolute; left:1%">
+     
+
+
+--
+
+
+---
+name: slide5
+class: left, top, inverse
+
+#.fancy[Example #2]
+
+Let's say your data looks like this:
+
+<img src="img/slide5_1.png"
+     width="800" height="400"
+     style="position:absolute; left:30%">
+     
+
+
+--
+
+
+---
+name: slide6
+class: left, top, inverse
+
+#.fancy[Example #2]
+
+And you want to automatically knit a report for each respondent
+
+
+<img src="img/slide6_1.png"
+     width="250" height="400"
+     style="position:absolute; top:50%">
+     
+<img src="img/slide6_2.png"
+     width="250" height="400"
+     style="position:absolute; left:40%">
+     
+     
+<img src="img/slide6_3.png"
+     width="250" height="400"
+     style="position:absolute; left:70%">
+     
+
+
+--
+
+
+---
+name: slide7
+class: left, top, inverse
+
+#.fancy[Example #2]
+
+Automation again!
+
+This time a little bit more complicated
+
+
+<img src="img/slide7_1.png"
+     width="1000" height="250"
+     style="position:absolute; top:40%">
+     
+
+--
+
+---
+name: slide8
+class: left, top, inverse
+
+#.fancy[Example #2]
+
+<img src="img/slide8_1.png"
+     width="400" height="600"
+     style="position:absolute; left:40%">
+     
+
+--
+
 
 ---
 
