@@ -722,7 +722,8 @@ class: left, top, inverse
      style="position:absolute; left: 620px; top: 100px;">
      
 ???
-The image should already be saved in the folder with the `.qmd` script. 
++ Discuss `source` versus `visual` options while editing
++ The image should already be saved in the folder with the `.qmd` script
 
 --
 
@@ -748,7 +749,7 @@ class: left, top, inverse
 
 # .fancy[Adding data visuals:]
 
-.large[To build plots and graphs, we will use `R` script. To add a new chunk, we will hit the `plus C` green button:]
+.large[To build plots and graphs, we will use `R` script. To add a new .rblue[chunk], we will hit the `plus C` green button:]
 
 ![](img/Website/plots 1.jpg)
 
