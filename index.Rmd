@@ -904,17 +904,14 @@ class: left, top, inverse
   + .spssred[**template**] and 
   + .spssred[**doc type**]
 2. Adding
-  + .rblue[**graphs**]
-  + .rblue[**tables**], and 
-  + .rblue[**descriptives**]
+  + markdown syntax
+  + `R` code
 3. *You* can then take and apply your own data as desired]
 ]
 
 <img src="img/focus.jpg" width="400" height="400"
      style="position:absolute; right: 150px; top: 170px;">
      
-
----
 ---
 name: templates
 class: left, top, inverse
