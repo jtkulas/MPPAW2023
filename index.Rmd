@@ -633,7 +633,7 @@ class: center, top, inverse
 ---
 class: left, top, inverse
 
-# Scope of website tutorial:
+# .fancy[Scope of website tutorial:]
 
 .pull-left[.large[
 1. Basic (simple) website
@@ -653,7 +653,7 @@ class: left, top, inverse
 name: Building Websites in Quatro
 class: left, top, inverse
 
-# Getting started:
+# .fancy[Getting started:]
 
 .pull-left[.large[
 1. From the file menu, click:
@@ -683,7 +683,7 @@ class: left, top, inverse
 ---
 class: left, top, inverse
 
-# The result:
+# .fancy[The result:]
 
 .large[You should now have two default files:]
 
@@ -697,7 +697,7 @@ class: left, top, inverse
 
 class: left, top, inverse
 
-# Activate!
+# .fancy[Activate!]
 
 .large[Clicking `Render` gives you an html page...]
 
@@ -712,7 +712,7 @@ class: left, top, inverse
 ---
 class: left, top, inverse
 
-# Adding images
+# .fancy[Adding images]
 
 .pull-left[.large[To add you an image you can:
 1. hit the `image` icon, then
@@ -736,7 +736,7 @@ The image should already be saved in the folder with the `.qmd` script.
      
 
 ---
-# There you have your penguins!
+# .fancy[There you have your penguins!]
 
 ```{r echo=FALSE, out.width="70%", fig.align="center"}
 knitr::include_graphics("img/Website/penguins.jpg")
@@ -746,7 +746,7 @@ knitr::include_graphics("img/Website/penguins.jpg")
 ---
 class: left, top, inverse
 
-# Adding data visuals:
+# .fancy[Adding data visuals:]
 
 .large[To build plots and graphs, we will use `R` script. To add a new chunk, we will hit the `plus C` green button:]
 
@@ -764,7 +764,7 @@ class: left, top, inverse
 ---
 class: left, top, inverse
 
-# A little closer look at that chunk...
+# .fancy[A little closer look at that chunk...]
 
 .pull-left[
 ```{r}
@@ -795,7 +795,7 @@ Run the script and you will get an interactive plot that allows you look average
 ---
 class: left, top, inverse
 
-# Adding new pages (Part I)
+# .fancy[Adding new pages] (Part I)
 
 .pull-left[.large[
 To create a new tab in your website, you want to: 
@@ -816,7 +816,7 @@ Next, give your page a title and make sure that is selected on `HTML`]
 ---
 class: left, top, inverse
 
-# Adding new pages (Part II)
+# .fancy[Adding new pages] (Part II)
 
 .large[
 The title is what the name of your new tab is going to be. After you want to save the file by clicking on the `r fa("floppy-disk", fill="#618DCF")` and name it whatever you want. 
@@ -828,7 +828,7 @@ The title is what the name of your new tab is going to be. After you want to sav
 ---
 class: left, top, inverse
 
-# Adding new pages (Part III)
+# .fancy[Adding new pages] (Part III)
 
 .pull-left[.large[Lastly, you will add your new `.qmd` file into the `quarto.yml`, by putting it under `about.qmd`
   + make sure to be consistent: `"name of your new file".qmd`]
@@ -840,7 +840,7 @@ class: left, top, inverse
 ---
 class: left, top, inverse
 
-# Publishing - sharing your website 
+# .fancy[Publishing - sharing your website] 
 
 .pull-left[.large[
 1. head over to [quartopub.com](https://quartopub.com/) and create an account
@@ -858,8 +858,8 @@ class: left, top, inverse
 ---
 class: left
 
-# Putting all this together...
-## ...I'll do a quick `live` walk-through
+# .fancy[Putting all this together...]
+## .fancy[...I'll do a quick `live` walk-through]
 
 .large[
 1. Create local project & files
@@ -895,7 +895,7 @@ class: center, top, inverse
 ---
 class: left, top, inverse
 
-# Scope of reports tutorial:
+# .fancy[Scope of reports tutorial:]
 
 .pull-left[.large[
 1. Choosing your desired report
@@ -1044,6 +1044,140 @@ class: center, top, inverse
 ![](img/diego.jpg)
 ] 
 
+---
+class: left, top, inverse
+
+# .fancy[Scope of parameterization tutorial:]
+
+.pull-left[.large[
+1. Choosing your desired report
+  + .spssred[**template**] and 
+  + .spssred[**doc type**]
+2. Adding
+  + .rblue[**graphs**]
+  + .rblue[**tables**], and 
+  + .rblue[**descriptives**]
+3. *You* can then take and apply your own data as desired]
+]
+
+<img src="img/focus.jpg" width="400" height="400"
+     style="position:absolute; right: 150px; top: 170px;">
+
+---
+name: Diegocontext
+class: left, top, inverse
+
+# .fancy[Example #1:]
+## .fancy[..automating parameters in your `r fa("r-project", fill="#4287f5")` report]
+
+--
+
+.pull-left[
+# .fancy[Let's say you have a very elaborate Quarto script…]
+]
+
+<img src="img/slide1_1.png"
+     width="350" height="370"
+     style="position:absolute; right:250px; top:250px;">
+
+<img src="img/slide1_2.png"
+     width="320" height="370"
+     style="position:absolute; right: 50px; top:300px;">
+
+---
+name: Diegoslide2
+class: left, top, inverse
+
+#.fancy[… and you want to change the data and/or parameters used to generate the plots, graphs, tables and text in your reports without having to edit your script or write new code]
+
+<img src="img/slide2_1.jpg"
+     width="450" height="350"
+     style="position:absolute; right: 230px; bottom:40px;">
+
+---
+name: Diegoslide3
+class: left, top, inverse
+
+#.fancy[So you can generate reports like these:]
+
+<img src="img/slide3_1.png"
+     width="320" height="350"
+     style="position:absolute; left:10%">
+     
+<img src="img/slide3_2.png"
+     width="320" height="350"
+     style="position:absolute; left:40%">
+     
+<img src="img/slide3_3.png"
+     width="320" height="350"
+     style="position:absolute; left:70%">
+
+---
+name: Diegoslide4
+class: left, top, inverse
+
+#.fancy[Use parameters!]
+
+--
+
+<img src="img/slide4_1.png"
+     width="1100" height="700"
+     style="position:absolute; left:4%">
+     
+---
+name: Diegoslide5
+class: left, top, inverse
+
+#.fancy[Example #2]
+
+## .fancy[Let's say your data looks like this:]
+
+<img src="img/slide5_1.png"
+     width="800" height="400"
+     style="position:absolute; left:30%">
+
+---
+name: Diegoslide6
+class: left, top, inverse
+
+# .fancy[...and you want to .spssred[automate] individual reports for each respondent]
+
+
+<img src="img/slide6_1.png"
+     width="320" height="400"
+     style="position:absolute; left:10%">
+     
+<img src="img/slide6_2.png"
+     width="320" height="400"
+     style="position:absolute; left:40%">
+
+<img src="img/slide6_3.png"
+     width="320" height="400"
+     style="position:absolute; left:70%">
+
+---
+name: Diegoslide7
+class: left, top, inverse
+
+#.fancy[Parameters again!]
+
+## .fancy[...this time a little bit more complicated:]
+
+
+<img src="img/slide7_1.png"
+     width="1200" height="300"
+     style="position:absolute; top:40%; left: 1%">
+     
+---
+name: Diegoslide8
+class: left, top, inverse
+
+#.fancy[Your output:]
+
+<img src="img/slide8_1.png"
+     width="400" height="600"
+     style="position:absolute; left:40%; bottom: 5%">
+     
 ---
 class: center
 
