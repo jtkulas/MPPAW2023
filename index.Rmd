@@ -786,7 +786,8 @@ p <- plot_ly(data = penguins,
 
 .pull-right[
 ```{r, echo=FALSE}
-p
+htmlwidgets::saveWidget(p, "penguins.html", selfcontained = TRUE, knitrOptions = list())
+widgetframe::frameWidget(p) ## trying for online
 ```
 ]
 
