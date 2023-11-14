@@ -1209,7 +1209,7 @@ class: left, top, inverse
 # .fancy[Scope of parameterization tutorial:]
 
 .pull-left[.large[
-1. Choosing scope of reports
+1. Choosing focus of reports
   + How do you want to "slice" the data? 
 2. Specify parameters
   + script & `YAML`
