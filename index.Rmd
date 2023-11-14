@@ -1363,22 +1363,25 @@ class: left, top, inverse
 
 .pull-left[
 ###<img class="circle" src="img/alison.jpg" alt="Alison" width="70px"/>.fancy[Alison Hill]: 
-+ [`r fa("github")`](https://github.com/apreshill) Source code
-+ [`r fa("youtube", fill="red")`](https://www.youtube.com/channel/UCQYM-t2ut2zXr4d7TIFya1A) Tutorials
-+ [`r fa("blog")`](https://www.apreshill.com/) Personal blog
++ [`r fa("github")` Source code](https://github.com/apreshill) 
++ [`r fa("youtube", fill="red")` Tutorials](https://www.youtube.com/channel/UCQYM-t2ut2zXr4d7TIFya1A) 
++ [`r fa("blog", fill="#AFE1AF")` Personal blog](https://www.apreshill.com/) 
+
+###<img class="circle" src="img/quarto-dark-bg.jpeg" alt="Quarto" width="70px" height="70px"/>.fancy[Quarto]:  
++ [`r fa("network-wired", fill="#0077b5")` Website](https://quarto.org/) 
++ [`r fa(name = "x-twitter")` Not very active](https://twitter.com/quarto_pub) 
 ]
 
 .pull-right[
 ###<img class="circle" src="img/yihui.png" alt="Yihui" width="70px"/>.fancy[Yihui Xie]:  
-+ [`r fa("github")`](https://github.com/yihui) Source code & sassy talk
-+ [`r fa(name = "x-twitter")`](https://twitter.com/xieyihui?lang=en) Twitter stuff
-+ [`r fa("blog")`](https://yihui.org/) Personal blog  
++ [`r fa("github")` Source code & sassy talk](https://github.com/yihui) 
++ [`r fa(name = "x-twitter")` Twitter stuff](https://twitter.com/xieyihui?lang=en) 
++ [`r fa("blog", fill="#AFE1AF")` Personal blog](https://yihui.org/)   
 
 ###<img class="circle" src="img/posit.jpg" alt="Posit PBC" width="70px"/>.fancy[Posit PBC]:  
-+ [`r fa("youtube", fill="red")`](https://www.youtube.com/@PositPBC) Tutorials (Tom Mock does Quarto)
-+ [`r fa("message")`](https://community.rstudio.com/) Discussion forum
-+ [`r fa(name="x-twitter")`](https://twitter.com/posit_pbc) Not very active
-
++ [`r fa("youtube", fill="red")` Tutorials](https://www.youtube.com/@PositPBC)  
++ [`r fa("message", fill="#40826D")` Discussion forum](https://community.rstudio.com/) 
++ [`r fa(name="x-twitter")` Not very active](https://twitter.com/posit_pbc) 
 
 ]
 
@@ -1402,8 +1405,8 @@ style="position:absolute; right: 100px; top: 280px;">
 style="position:absolute; right: 100px; top: 490px;"> 
 
 .pull-left[`r fa(name = "envelope", fill="#B4B4B4")` [caseyosorio@gmail.com](mailto:caseyosorio@gmail.com)  
-[`r fa("linkedin", fill="#0077b5")` @Casey Osorio-Duffoo](https://www.linkedin.com/in/casey-osorio-duffoo/)
-<br>
+[`r fa("linkedin", fill="#0077b5")` @Casey Osorio-Duffoo](https://www.linkedin.com/in/casey-osorio-duffoo/) <br>
+[`r fa("github")` @casosorio](https://github.com/casosorio)
 <br>
 <br>
 <br>
@@ -1411,14 +1414,16 @@ style="position:absolute; right: 100px; top: 490px;">
 <br>
 <br>
 
-[`r fa(name = "envelope", fill="#B4B4B4")` defabiism1@montclair.edu](mailto:defabiism1@montclair.edu)
+[`r fa(name = "envelope", fill="#B4B4B4")` defabiism1@montclair.edu](mailto:defabiism1@montclair.edu) <br>
+[`r fa("linkedin", fill="#0077b5")` @Michael Defabiis](https://www.linkedin.com/in/michael-defabiis-84b45b162/) <br>
+[`r fa("github")` @heyimMIKE123](https://github.com/heyimMIKE123)
 ]
 
 .pull-right[
 [`r fa(name = "envelope", fill="#B4B4B4")` figueirasd1@montclair.edu](mailto:figueirasd1@montclair.edu) <br>
-[`r fa("linkedin", fill="#0077b5")` @Diego Figueiras](https://www.linkedin.com/in/diego-figueiras-m-a-012644123/)
+[`r fa("linkedin", fill="#0077b5")` @Diego Figueiras](https://www.linkedin.com/in/diego-figueiras-m-a-012644123/) <br>
+[`r fa("github")` @MontclairML](https://github.com/MontclairML)
 
-<br>
 <br>
 <br>
 <br>
