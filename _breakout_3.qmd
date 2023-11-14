@@ -1,0 +1,34 @@
+---
+title: "Trying quarto"
+format: html
+editor: visual
+params:
+    year: 2008
+        
+---
+
+## Quarto
+
+Quarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see <https://quarto.org>.
+
+## Running Code
+
+When you click the **Render** button a document will be generated that includes both content and the output of embedded code. You can embed code like this:
+
+```{r, warning=FALSE, echo=FALSE, include=FALSE}
+library(palmerpenguins)
+library(tidyverse)
+```
+
+You can add options to executable code like this
+
+```{r viz}
+df1<-penguins%>%filter(year==params$year)
+df1 %>%
+ggplot() +
+ aes(x = island) +
+ geom_bar(fill = "#0c4c8a") +
+ theme_minimal()
+```
+
+The `echo: false` option disables the printing of code (only output is displayed).
