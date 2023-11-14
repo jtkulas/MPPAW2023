@@ -1428,7 +1428,8 @@ style="position:absolute; right: 100px; top: 490px;">
 <br>
 <br>
 
-[`r fa(name = "envelope", fill="#B4B4B4")` jtkulas@ergreports.com](mailto:jtkulas@ergreports.com)  
+[`r fa(name = "envelope", fill="#B4B4B4")` jtkulas@ergreports.com](mailto:jtkulas@ergreports.com) <br>
+[`r fa("network-wired", fill="#0077b5")` e`r fa("r-project")`g homepage](https://ergreports.com/)   
 [`r fa(name = "x-twitter")` @jtkulas](http://twitter.com/jtkulas)  
 [`r fa(name = "youtube", fill="red")` Forensic Psychometrics](https://www.youtube.com/@forensicpsychometrics8300)
 ]
