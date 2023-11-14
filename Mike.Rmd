@@ -50,7 +50,7 @@ Presentation notes here
 ]
 --
 .pull-right[
-(2) Adding .rblue[**graphs**], .rblue[**tables**], and .rblue[**descriptives**]
+(2) Basic .rblue[**Markdown**] code
 ]
 
 ---
@@ -76,7 +76,16 @@ class: left, top, inverse
      width="250" height="270"
      style="position:absolute; left:70%">
 --
-
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
 ##.fancy[All you need to do is find them!]
 
 ---
@@ -107,6 +116,7 @@ class: left, top, inverse
 
 
 ---
+
 name: formats
 class: left, top, inverse
 
@@ -114,15 +124,56 @@ class: left, top, inverse
 
 ##.fancy[Choosing a format is easy!]
 
---
+<img src="img/choose_format_1.png"
+     width="250" 
+     style="position:absolute; left:65%; top: 10%">
 
-<img src="img/word_icon.png"
+---
+name: formats
+class: left, top, inverse
+
+#.fancy[.salt[Formats]]
+
+##.fancy[Choosing a format is easy!]
+
+<img src="img/choose_format_2.png"
+     width="600" 
+     style="position:absolute; left:47%; top: 20%">
+     
+--
+<img src="img/choose_format_3.png"
+     width="600" 
+     style="position:absolute; left:47%; top: 20%">
+
+---
+name: formats
+class: left, top, inverse
+
+#.fancy[.salt[Formats]]
+
+##.fancy[Choosing a format is easy!]
+
+<img src="img/choose_format_4.png"
+     width="600" 
+     style="position:absolute; left:47%; top: 20%">
+     
+---
+name: formats
+class: left, top, inverse
+
+#.fancy[.salt[Formats]]
+
+##.fancy[Choosing a format is easy!]
+
+
+<img src="img/html_icon.png"
      width="250" height="270"
      style="position:absolute; left:10%">
      
-<img src="img/choose_format_word.png"
+<img src="img/choose_format_html.png"
      width=60%
      style="position:absolute; left:40%">
+     
 --
 
 <img src="img/pdf_icon.png"
@@ -133,25 +184,145 @@ class: left, top, inverse
      width=60%
      style="position:absolute; left:40%">
 
---
+---
+name: formats
+class: left, top, inverse
 
-<img src="img/html_icon.png"
+#.fancy[.salt[Formats]]
+
+##.fancy[Choosing a format is easy!]
+
+
+<img src="img/word_icon.png"
      width="250" height="270"
      style="position:absolute; left:10%">
      
-<img src="img/choose_format_html.png"
+<img src="img/choose_format_word.png"
      width=60%
      style="position:absolute; left:40%">
      
 ---
 
-name: formats
+name: rmarkdown
 class: left, top, inverse
 
-###.fancy[.salt[Here's an example!]]
+#.fancy[.salt[Markdown Code]]
+##.fancy[Use this to structure your document]
+
+---
+name: rmarkdown
+class: left, top, inverse
+
+#.fancy[.salt[Markdown Code]]
+
+<img src="img/rmarkdown_1.png"
+     width="1000" 
+     style="position:absolute; left:8%; top: 40%">
 
 ---
 
+name: rmarkdown
+class: left, top, inverse
+
+#.fancy[.salt[Markdown Code]]
+
+<img src="img/rmarkdown_2.png"
+     width="800" 
+     style="position:absolute; left:15%; top: 40%">
+
+---
+
+name: rmarkdown
+class: left, top, inverse
+
+#.fancy[.salt[Markdown Code]]
+##.fancy[Use the 'Source' editing mode to see syntax]
+
+<img src="img/rmarkdown_3.png"
+     width="800" 
+     style="position:absolute; left:15%; top: 40%">
+
+---
+
+name: rmarkdown
+class: left, top, inverse
+
+#.fancy[.salt[Markdown Code]]
+##.fancy[Use the 'Source' editing mode to see syntax]
+
+<img src="img/rmarkdown_1.png"
+     width="800" 
+     style="position:absolute; left:15%; top: 40%">
+
+---
+
+name: rmarkdown
+class: left, top, inverse
+
+#.fancy[.salt[Markdown Code]]
+##.fancy[Use the 'Visual' editing mode to see the organized version]
+
+<img src="img/rmarkdown_3.png"
+     width="800" 
+     style="position:absolute; left:15%; top: 40%">
+---
+
+name: rmarkdown
+class: left, top, inverse
+
+#.fancy[.salt[Markdown Code]]
+##.fancy[Use the 'Visual' editing mode to see the organized version]
+
+<img src="img/rmarkdown_2.png"
+     width="800" 
+     style="position:absolute; left:15%; top: 40%">
+
+---
+
+name: rmarkdown
+class: left, top, inverse
+
+#.fancy[.salt[Markdown Code]]
+##.fancy[Insert an R code chunk with /]
+
+<img src="img/rmarkdown_4.png"
+     width="600" 
+     style="position:absolute; left:60%; top: 10%">
+---
+
+name: markdown
+class: left, top, inverse
+
+###.fancy[.salt[Markdown]]
+##.fancy[Use the backtick ` to write R code inline]
+
+--
+
+<img src="img/rmarkdown_5.png"
+     width="800" 
+     style="position:absolute; left:20%; top: 40%">
+     
+--
+
+<img src="img/rmarkdown_6.png"
+     width="800" 
+     style="position:absolute; left:20%; top: 60%">
+---
+name: example
+class: left, top, inverse
+
+###.fancy[.salt[Here's an example document!]]
+
+<img src="img/example_2_mike.png"
+     width= 30% 
+     style="position:absolute; left:17%; top: 23%">
+     
+<img src="img/example_mike.png"
+     width= 30% 
+     style="position:absolute; left:53%; top: 23%">
+
+
+---
 class: left, top, inverse
 
 # .salt[.fancy[Questions???]]
