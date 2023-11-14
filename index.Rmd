@@ -1050,14 +1050,13 @@ class: left, top, inverse
 # .fancy[Scope of parameterization tutorial:]
 
 .pull-left[.large[
-1. Choosing your desired report
-  + .spssred[**template**] and 
-  + .spssred[**doc type**]
-2. Adding
-  + .rblue[**graphs**]
-  + .rblue[**tables**], and 
-  + .rblue[**descriptives**]
-3. *You* can then take and apply your own data as desired]
+1. Choosing scope of reports
+  + How do you want to "slice" the data? 
+2. Specify parameters
+  + script & `YAML`
+  + Variable vs. value
+3. Auto-generate parameterized reports 
+4. *You* can then take and slice your own data as desired]
 ]
 
 <img src="img/focus.jpg" width="400" height="400"
