@@ -1,0 +1,40 @@
+---
+title: "Club Penguin"
+author: "Dr. Penguin"
+format: html
+editor: visual
+---
+
+# Main Heading
+
+Any notes / paragraphs relevant to what it is that you want to talk about
+
+## Subheading
+
+Any text for your subheading can go here
+
+### Sub-Subheading
+
+Any text for the sub-subheading would go here, and so on...
+
+##### A regular R chunk shows your code in the output:
+
+```{r}
+library(palmerpenguins)
+```
+
+
+# Insert Tabs Easily with Quarto
+
+The Quarto method below demonstrates a much simpler and more accessible way to create tabs in a document compared to manually coding with HTML and JavaScript. Quarto allows you to create complex, interactive content using straightforward Markdown syntax, which is significantly easier, especially for those who may not be proficient in web development.
+
+::: panel-tabset
+# Tab Title 1
+
+Content for the first tab goes here. You can include text, code, images, etc.
+
+# Tab Title 2
+
+Content for the second tab. This can be different from the first tab.
+
+:::

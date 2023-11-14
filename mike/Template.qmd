@@ -102,65 +102,6 @@ The inline R code snippet below is designed to dynamically insert the number of 
 
 There are `r nrow(penguins)` rows of data.
 
-# Insert Tabs the Difficult Way with HTML
-
-The HTML and JavaScript code snippet below is a manual approach to creating interactive tabs in a web document. While this method offers a high level of customization and control, it can be complex and time-consuming, especially for those who are new to HTML and JavaScript.
-
-::: tab
-<button class="tablinks" onclick="openTab(event, &#39;Tab1&#39;)">
-
-Tab 1
-
-</button>
-
-<button class="tablinks" onclick="openTab(event, &#39;Tab2&#39;)">
-
-Tab 2
-
-</button>
-
-<button class="tablinks" onclick="openTab(event, &#39;Tab3&#39;)">
-
-Tab 3
-
-</button>
-:::
-
-::: {#Tab1 .tabcontent}
-<h3>Tab 1</h3>
-
-<p>Content for Tab 1.</p>
-:::
-
-::: {#Tab2 .tabcontent}
-<h3>Tab 2</h3>
-
-<p>Content for Tab 2.</p>
-:::
-
-::: {#Tab3 .tabcontent}
-<h3>Tab 3</h3>
-
-<p>Content for Tab 3.</p>
-:::
-
-```{=html}
-<script>
-function openTab(evt, tabName) {
-  var i, tabcontent, tablinks;
-  tabcontent = document.getElementsByClassName("tabcontent");
-  for (i = 0; i < tabcontent.length; i++) {
-    tabcontent[i].style.display = "none";
-  }
-  tablinks = document.getElementsByClassName("tablinks");
-  for (i = 0; i < tablinks.length; i++) {
-    tablinks[i].className = tablinks[i].className.replace(" active", "");
-  }
-  document.getElementById(tabName).style.display = "block";
-  evt.currentTarget.className += " active";
-}
-</script>
-```
 # Insert Tabs Easily with Quarto
 
 The Quarto method below demonstrates a much simpler and more accessible way to create tabs in a document compared to manually coding with HTML and JavaScript. Quarto allows you to create complex, interactive content using straightforward Markdown syntax, which is significantly easier, especially for those who may not be proficient in web development.

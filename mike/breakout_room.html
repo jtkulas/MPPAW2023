@@ -58,16 +58,16 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </style>
 
 
-<script src="Template_files/libs/clipboard/clipboard.min.js"></script>
-<script src="Template_files/libs/quarto-html/quarto.js"></script>
-<script src="Template_files/libs/quarto-html/popper.min.js"></script>
-<script src="Template_files/libs/quarto-html/tippy.umd.min.js"></script>
-<script src="Template_files/libs/quarto-html/anchor.min.js"></script>
-<link href="Template_files/libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="Template_files/libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="Template_files/libs/bootstrap/bootstrap.min.js"></script>
-<link href="Template_files/libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="Template_files/libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="breakout_room_files/libs/clipboard/clipboard.min.js"></script>
+<script src="breakout_room_files/libs/quarto-html/quarto.js"></script>
+<script src="breakout_room_files/libs/quarto-html/popper.min.js"></script>
+<script src="breakout_room_files/libs/quarto-html/tippy.umd.min.js"></script>
+<script src="breakout_room_files/libs/quarto-html/anchor.min.js"></script>
+<link href="breakout_room_files/libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="breakout_room_files/libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="breakout_room_files/libs/bootstrap/bootstrap.min.js"></script>
+<link href="breakout_room_files/libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="breakout_room_files/libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
 
 
 </head>
@@ -119,75 +119,20 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </div>
 </div>
 </section>
-<section id="use-code-such-as-echofalse-warningfalse-and-messagefalse-to-hide-it" class="level5">
-<h5 class="anchored" data-anchor-id="use-code-such-as-echofalse-warningfalse-and-messagefalse-to-hide-it">Use code such as echo=FALSE, warning=FALSE, and message=FALSE to hide it!</h5>
 </section>
 </section>
-</section>
-<section id="scatter-plot-with-regression-lines" class="level2">
-<h2 class="anchored" data-anchor-id="scatter-plot-with-regression-lines">Scatter Plot with Regression Lines</h2>
-<p>The ggplot code provided creates a scatter plot using the Palmer Penguins dataset. This plot visualizes the relationship between two key measurements of the penguins: bill length (in millimeters) and flipper length (also in millimeters). Each point on the plot represents an individual penguin, with the x-axis showing the bill length and the y-axis showing the flipper length.</p>
-<p>The <code>aes</code> function in the ggplot code specifies that the plot should use bill length for the x-axis and flipper length for the y-axis. Additionally, it defines the shape and color of the points based on the species of the penguin, making it easy to distinguish between different species visually.</p>
-<p>The <code>geom_point()</code> function adds the actual points to the plot, representing the data points for each penguin. The <code>geom_smooth(method="lm", se=FALSE)</code> adds a linear regression line for each species, showing the general trend or relationship between bill length and flipper length for each species without including the standard error shading.</p>
-<p>The <code>labs</code> function adds informative labels and titles to the plot. The title “Flipper Length vs.&nbsp;Bill Length for Palmer Penguins” clearly indicates what the plot is depicting. The x and y-axis labels are descriptive, informing the viewer exactly what each axis represents.</p>
-<p>Finally, <code>theme_minimal()</code> is used to give the plot a clean and minimalistic aesthetic, which helps in focusing the viewer’s attention on the data points and the trends they represent, rather than on any decorative elements of the chart.</p>
-<div class="cell">
-<div class="cell-output-display">
-<p><img src="Template_files/figure-html/unnamed-chunk-3-1.png" class="img-fluid" width="672"></p>
-</div>
-</div>
-</section>
-<section id="barplot" class="level2">
-<h2 class="anchored" data-anchor-id="barplot">Barplot</h2>
-<p>This ggplot code creates a bar chart visualizing the average body mass of different species of Palmer Penguins. The plot aims to compare the average body mass (in grams) across various penguin species in the Palmer Penguins dataset.</p>
-<p>The <code>aes</code> function within <code>ggplot</code> sets the aesthetics for the plot. Here, it specifies the x-axis to represent the different penguin species and the y-axis to represent their body mass in grams. The <code>fill=species</code> attribute within <code>aes</code> means that each bar will be colored differently based on the species, making it visually easier to distinguish between them.</p>
-<p>The <code>geom_bar(stat="summary", fun="mean")</code> function is crucial in this plot. It tells ggplot to create a bar chart where each bar represents the average (mean) body mass for each species. This is specified by <code>stat="summary"</code> and <code>fun="mean"</code>. Instead of counting occurrences, which is the default for <code>geom_bar</code>, it calculates the mean body mass for each species.</p>
-<p>The <code>labs</code> function adds labels and a title to the plot for better understanding. The title “Average Body Mass of Palmer Penguins by Species” clearly indicates the main focus of the plot. The x-axis is labeled “Species”, and the y-axis is labeled “Average Body Mass (g)”, indicating what each axis represents.</p>
-<p>Lastly, <code>theme_minimal()</code> is used to apply a minimalistic theme to the plot. This theme choice enhances readability and focuses attention on the data by removing unnecessary visual elements.</p>
-<div class="cell">
-<div class="cell-output-display">
-<p><img src="Template_files/figure-html/unnamed-chunk-4-1.png" class="img-fluid" width="672"></p>
-</div>
-</div>
-</section>
-<section id="insert-image" class="level2">
-<h2 class="anchored" data-anchor-id="insert-image">Insert Image</h2>
-<p>The <code>![Image description: Three types of penguins - Chinstrap, Gentoo, and Adelie.](penguins.png){width="638"}</code> syntax is used to embed an image (<code>penguins.png</code>) into the document. This syntax tells the Markdown processor to display the image stored in the <code>penguins.png</code> file.</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="penguins.png" class="img-fluid figure-img" width="638"></p>
-<figcaption class="figure-caption">Image description: Three types of penguins - Chinstrap, Gentoo, and Adelie.</figcaption>
-</figure>
-</div>
-</section>
-</section>
-<section id="inline-r-code" class="level1">
-<h1>Inline R Code</h1>
-<p>The inline R code snippet below is designed to dynamically insert the number of rows in the penguins dataset directly into the text of the document. This approach is particularly useful in dynamic report generation where the dataset might change over time. Instead of manually updating text with the new number of rows, this inline code ensures that the information is always current and accurate with the latest version of the dataset.</p>
-<p>There are 344 rows of data.</p>
 </section>
 <section id="insert-tabs-easily-with-quarto" class="level1">
 <h1>Insert Tabs Easily with Quarto</h1>
 <p>The Quarto method below demonstrates a much simpler and more accessible way to create tabs in a document compared to manually coding with HTML and JavaScript. Quarto allows you to create complex, interactive content using straightforward Markdown syntax, which is significantly easier, especially for those who may not be proficient in web development.</p>
 <div class="tabset-margin-container"></div><div class="panel-tabset">
-<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-1-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-1" role="tab" aria-controls="tabset-1-1" aria-selected="true" href="">Tab Title 1</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-2" role="tab" aria-controls="tabset-1-2" aria-selected="false" href="">Tab Title 2</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-3-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-3" role="tab" aria-controls="tabset-1-3" aria-selected="false" href="">Tab Title 3</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-4-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-4" role="tab" aria-controls="tabset-1-4" aria-selected="false" href=""></a></li></ul>
+<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-1-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-1" role="tab" aria-controls="tabset-1-1" aria-selected="true" href="">Tab Title 1</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-2" role="tab" aria-controls="tabset-1-2" aria-selected="false" href="">Tab Title 2</a></li></ul>
 <div class="tab-content">
 <div id="tabset-1-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-1-1-tab">
 <p>Content for the first tab goes here. You can include text, code, images, etc.</p>
 </div>
 <div id="tabset-1-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-2-tab">
 <p>Content for the second tab. This can be different from the first tab.</p>
-<div class="cell">
-<div class="cell-output-display">
-<p><img src="Template_files/figure-html/unnamed-chunk-5-1.png" class="img-fluid" width="672"></p>
-</div>
-</div>
-</div>
-<div id="tabset-1-3" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-3-tab">
-<p>And so on for as many tabs as you need.</p>
-</div>
-<div id="tabset-1-4" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-4-tab">
-
 </div>
 </div>
 </div>
