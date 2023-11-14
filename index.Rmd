@@ -1259,6 +1259,17 @@ class: left, top, inverse
 
 #.fancy[So you can generate reports like these:]
 
+
+```{r viz, echo=TRUE, eval=FALSE, results='hide'}
+library(palmerpenguins)
+df1<-penguins%>%filter(year==params$year)
+df1 %>%
+ggplot() +
+ aes(x = island) +
+ geom_bar(fill = "#0c4c8a") +
+ theme_minimal()
+```
+
 <img src="img/slide3_1.png"
      width="320" height="350"
      style="position:absolute; left:10%">
@@ -1291,9 +1302,10 @@ class: left, top, inverse
 
 ## .fancy[Let's say your data looks like this:]
 
-<img src="img/slide5_1.png"
-     width="800" height="400"
-     style="position:absolute; left:30%">
+```{r data}
+df<-read.csv("percentiles scores.csv")
+kable(df)
+```
 
 ---
 name: Diegoslide6
