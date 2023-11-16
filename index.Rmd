@@ -1429,7 +1429,7 @@ style="position:absolute; right: 100px; top: 490px;">
 <br>
 
 [`r fa(name = "envelope", fill="#B4B4B4")` jtkulas@ergreports.com](mailto:jtkulas@ergreports.com) <br>
-[e`r fa("r-project")`g consultancy website](https://ergreports.com/)   
+[<font color="#87CEEB">e</font>`r fa("r-project", fill="#4287f5")`<font color="#0047AB">g</font> consultancy website](https://ergreports.com/)   
 [`r fa(name = "x-twitter")` @jtkulas](http://twitter.com/jtkulas)  
 [`r fa(name = "youtube", fill="red")` Forensic Psychometrics](https://www.youtube.com/@forensicpsychometrics8300)
 ]
