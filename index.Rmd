@@ -391,7 +391,7 @@ class: left, top, inverse
 name: RStudio
 class: left, top, inverse
 
-#.fancy[...parallels the evolution of] `r fa("r-project", fill="#4287f5")` .rblue[Studio]:
+#.fancy[...parallels the evolution of `r fa("r-project", fill="#4287f5")` Studio]:
 
 
 .pull-left[
@@ -473,7 +473,7 @@ class: left, top, inverse
 # .fancy[Timing (for us as a field):]
 
 .pull-left[
-.large[`r fa("r-project")`Studio is a [Public Benefit Corporation](https://www.law.cornell.edu/wex/public_benefit_corporation#:~:text=A%20public%20benefit%20corporation%20is,a%20responsible%20and%20sustainable%20manner.) with a mission to create free and open source software for *data science*, *scientific research*, and .kindabig[.rblue[*technical communication*]]
+.large[`r fa("r-project", fill="#4287f5")` Studio is a [Public Benefit Corporation](https://www.law.cornell.edu/wex/public_benefit_corporation#:~:text=A%20public%20benefit%20corporation%20is,a%20responsible%20and%20sustainable%20manner.) with a mission to create free and open source software for *data science*, *scientific research*, and .kindabig[.rblue[*technical communication*]]
 ]
 ]
 
